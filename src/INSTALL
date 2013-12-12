@@ -1,0 +1,9 @@
+Building Lusocoin
+
+See doc/readme-qt.rst for instructions on building Lusocoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Lusocoin.
+
+See doc/build-*.txt for instructions on building lusocoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Lusocoin.

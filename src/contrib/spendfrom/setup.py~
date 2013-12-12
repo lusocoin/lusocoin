@@ -1,0 +1,9 @@
+from distutils.core import setup
+setup(name='lucspendfrom',
+      version='1.0',
+      description='Command-line utility for lusocoin "coin control"',
+      author='Gavin Andresen',
+      author_email='gavin@lusocoinfoundation.org',
+      requires=['jsonrpc'],
+      scripts=['spendfrom.py'],
+      )

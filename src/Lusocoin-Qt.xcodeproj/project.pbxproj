@@ -1,0 +1,1387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0477575DC34A4A9646C4104A /* sendcoinsentry.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F6ACC8CA9A34F7DA61977541 /* sendcoinsentry.cpp */; settings = {ATTRIBUTES = (); }; };
+		04CA7B1291BA5426EC23B7DC /* crypto in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 8DB7EDBE1F3C84D115A00A59 /* crypto */; };
+		0615A2624BE8F9B84A962F7A /* rpcmining.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C2C990FEE1C3381462640E80 /* rpcmining.cpp */; settings = {ATTRIBUTES = (); }; };
+		069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */; };
+		07DF3D93A2725F351C946FA0 /* moc_lusocoinamountfield.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C2B869AD33A4904B7E0C7C88 /* moc_lusocoinamountfield.cpp */; settings = {ATTRIBUTES = (); }; };
+		088983152F510BFF002699E9 /* askpassphrasedialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DEFEDE4762FD62A298BD8A09 /* askpassphrasedialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		0B27AF031E23A1D93ABE3C8C /* rpcdump.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 31DD861CD0A6A9747CBC540A /* rpcdump.cpp */; settings = {ATTRIBUTES = (); }; };
+		0E20ADA60AF96DE426FCCAC8 /* libleveldb.a in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 2D30D057A077948456B3FE35 /* libleveldb.a */; };
+		1139EA7430A43AC71420B948 /* moc_signverifymessagedialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 93CB504E1E918EC99C0A3368 /* moc_signverifymessagedialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		11D13C8965073DD93F492CB3 /* moc_transactiontablemodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DAED567B109C79E19F17A86C /* moc_transactiontablemodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		131CB0C645EEA7B9B57C85AD /* rpcnet.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C2FAC58575580AA9A46CBA47 /* rpcnet.cpp */; settings = {ATTRIBUTES = (); }; };
+		17709AA148DBDD156605A9D3 /* transactionfilterproxy.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F0859C1B1D2E6A709CB82937 /* transactionfilterproxy.cpp */; settings = {ATTRIBUTES = (); }; };
+		185A69AED12F2A947901CFF7 /* transactionview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A2313FE103F15A1A07E0C10C /* transactionview.cpp */; settings = {ATTRIBUTES = (); }; };
+		1F0EF26A80D0642AA8938686 /* hash.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 46EC93803811240FE7B2B9E8 /* hash.cpp */; settings = {ATTRIBUTES = (); }; };
+		1F1E41C5F9C0480F4517CB1A /* splashscreen.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E74648DFE36EC1841B222CA9 /* splashscreen.cpp */; settings = {ATTRIBUTES = (); }; };
+		1F3B7FFD2ECB32E1D21762DB /* overviewpage.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 59A80B7DEF583E0548ABACA4 /* overviewpage.cpp */; settings = {ATTRIBUTES = (); }; };
+		22DB586EF9BCDB5F3AF73F9E /* boost_chrono-mt in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 0E560C63387E32B64C5B1A41 /* boost_chrono-mt */; };
+		2335D1C7387910B546B8FED8 /* moc_macdockiconhandler.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 86D4A6FE594D75CD04314D9C /* moc_macdockiconhandler.cpp */; settings = {ATTRIBUTES = (); }; };
+		27BC32AD513D938F8FFA5C6C /* lusocoingui.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5219CC57B74A15932B329F4B /* lusocoingui.cpp */; settings = {ATTRIBUTES = (); }; };
+		2857B3AE7E2B7A9DC24C41EF /* clientmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2C51F64A3430117D2F6C7CB5 /* clientmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		285C89814AE6CBA1FF1D68DC /* moc_paymentserver.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6550BC5D72B2AEBC05173AC2 /* moc_paymentserver.cpp */; settings = {ATTRIBUTES = (); }; };
+		2A25A62767888DFF81FAA183 /* moc_addressbookpage.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5F97480B63F2A55CEF1982C8 /* moc_addressbookpage.cpp */; settings = {ATTRIBUTES = (); }; };
+		2BD4DB20BB0FF8E056E887D2 /* moc_sendcoinsentry.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8D1A94236062B7CD3737DE05 /* moc_sendcoinsentry.cpp */; settings = {ATTRIBUTES = (); }; };
+		2DEDF3EC04C6BEA1365A4A0B /* boost_program_options-mt in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = F0E90B2712E935EEA9C830DD /* boost_program_options-mt */; };
+		2E2BE64F249B462CEB8D8300 /* csvmodelwriter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B0D9669919AE05EA8BEA9EB0 /* csvmodelwriter.cpp */; settings = {ATTRIBUTES = (); }; };
+		2E4790A177122843B97E8091 /* moc_sendcoinsdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 166CC006FAB9FCBA326BEA03 /* moc_sendcoinsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		2F561C11680F5061E661DD77 /* moc_walletview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0E40E7521ED12DDE2129DBF6 /* moc_walletview.cpp */; settings = {ATTRIBUTES = (); }; };
+		2FD44F75EFF0B966B2F1E595 /* macdockiconhandler.mm in Build Sources */ = {isa = PBXBuildFile; fileRef = D9D898D294665DEC62FCD828 /* macdockiconhandler.mm */; settings = {ATTRIBUTES = (); }; };
+		30C83AF2C74364E4B22B306B /* lusocoinstrings.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0ACD2FC26E579D26D246BDED /* lusocoinstrings.cpp */; settings = {ATTRIBUTES = (); }; };
+		32A72A447FA9678E3855A512 /* moc_askpassphrasedialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 61B4C1AF121658291D80CCC0 /* moc_askpassphrasedialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		32B18F5EF3DF0B0988D45D27 /* moc_aboutdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 909254A40B12E3D7730D816C /* moc_aboutdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		3428984AC2BC7EFF81CD7E8D /* moc_qvalidatedlineedit.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = ABB72B7508F76A396BE621AE /* moc_qvalidatedlineedit.cpp */; settings = {ATTRIBUTES = (); }; };
+		3621616ED9B8ECC1C15B213C /* moc_transactionview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2B9005EBC5367A1D093B810C /* moc_transactionview.cpp */; settings = {ATTRIBUTES = (); }; };
+		36B7FA77A02770F401B657DB /* moc_guiutil.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E559C42FB1E911EB5DE3C2DB /* moc_guiutil.cpp */; settings = {ATTRIBUTES = (); }; };
+		3705F9414918BEA7A45EC9FF /* guiutil.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A459A939BE4FE065DD5F64AB /* guiutil.cpp */; settings = {ATTRIBUTES = (); }; };
+		3826A0833FCB54E86728C6EF /* QtNetwork.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */; };
+		3B8CD48C3BC5D9D227F91FB8 /* sendcoinsdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 76B18BD21CCF64E256F029A8 /* sendcoinsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		3C2FBE7D6FECEBA0DFD4AB34 /* init.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C865A8939105E6350A50AF02 /* init.cpp */; settings = {ATTRIBUTES = (); }; };
+		3EAF55895330BB92384E7FB9 /* addresstablemodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C04BD6830C6C2F5DAC54B155 /* addresstablemodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		3EC78ACC9A0DDA2B59AC1799 /* moc_lusocoinunits.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3A3E78F06E71043703CF9BD6 /* moc_lusocoinunits.cpp */; settings = {ATTRIBUTES = (); }; };
+		4020D29C8FCB01F984669E7E /* moc_optionsdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9E1F418151C4F9D5C609A73F /* moc_optionsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		40FA068CE8AB09C9880E56EF /* rpcconsole.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2C15C5B52F35EA388EBAB757 /* rpcconsole.cpp */; settings = {ATTRIBUTES = (); }; };
+		44D23EB3FE35749A5300E586 /* qvaluecombobox.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 50388E8625CEBCCE224ABDE5 /* qvaluecombobox.cpp */; settings = {ATTRIBUTES = (); }; };
+		451B70CDA0F45F6B6D1BA535 /* walletstack.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 934D9AA6E6E57B07B1DD1AB8 /* walletstack.cpp */; settings = {ATTRIBUTES = (); }; };
+		49057C93AE051F2AA7B69B62 /* optionsdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D3299ADD50F0FBF37C2EDF0F /* optionsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		4B42840381D6574AD60904CE /* moc_overviewpage.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EA42B426DA349533DD088CD2 /* moc_overviewpage.cpp */; settings = {ATTRIBUTES = (); }; };
+		4C591437B5ACB28BC201C50A /* moc_csvmodelwriter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 113E10E665ED8B584285DD0C /* moc_csvmodelwriter.cpp */; settings = {ATTRIBUTES = (); }; };
+		501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 9B36DA7E32F0304E780E7972 /* QtGui.framework */; };
+		51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 821416211D63F190AAAD016A /* AppKit.framework */; };
+		52F1FAADF4FE86970C9D8F8B /* boost_thread-mt in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 4D97731782BCD54DAFDEC436 /* boost_thread-mt */; };
+		5830B6BE77D090B659D380A5 /* txdb.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 81E4F16A1B5D5B7CA25351A6 /* txdb.cpp */; settings = {ATTRIBUTES = (); }; };
+		5AAC0D9BBAE5CD615557CD7D /* Foundation.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = BC52FAE3CF80A871217A111D /* Foundation.framework */; };
+		5DDC8CA1D9E9E7001CA28B49 /* lusocoin.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1670EE074B7C0A79917E1B4C /* lusocoin.cpp */; settings = {ATTRIBUTES = (); }; };
+		5EAED355339B6111B40A5F1F /* moc_addresstablemodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A4B4A1EAA3CC10945B755590 /* moc_addresstablemodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		65EF8D7075C4F1076D7D2C99 /* rpcblockchain.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3627F02371334F49DCE3BD06 /* rpcblockchain.cpp */; settings = {ATTRIBUTES = (); }; };
+		66986C1C134454228A533BEA /* monitoreddatamapper.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5E566BBFC352766B224FB0C7 /* monitoreddatamapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		6D2B30A0668C35BB0498A043 /* walletdb.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3B5A9B7D780FF672241548ED /* walletdb.cpp */; settings = {ATTRIBUTES = (); }; };
+		6FB8F6F01CEA697B2CEF37CE /* netbase.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4942713BCD2752BB531BF76C /* netbase.cpp */; settings = {ATTRIBUTES = (); }; };
+		7250B8EA381EF371A7BA7341 /* keystore.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 17D98AECB876AABF97716311 /* keystore.cpp */; settings = {ATTRIBUTES = (); }; };
+		731C6DFDCB68440750ABEAFF /* db.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8094838580E1BB7A3BB8FC78 /* db.cpp */; settings = {ATTRIBUTES = (); }; };
+		7486A263A9B6C15E309DA42C /* lusocoinamountfield.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E00C97349FBB8BC3813D9B5B /* lusocoinamountfield.cpp */; settings = {ATTRIBUTES = (); }; };
+		795E745119844850900AAE31 /* checkpoints.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C33D3CE1A2A004536AAF1B90 /* checkpoints.cpp */; settings = {ATTRIBUTES = (); }; };
+		7BAC12D50674304BD5638FDC /* crypter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D58D02D777A1C816604D2FFA /* crypter.cpp */; settings = {ATTRIBUTES = (); }; };
+		8313C92A51EF7D7E3C4796E4 /* version.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FE1E38D934712FA3E0009010 /* version.cpp */; settings = {ATTRIBUTES = (); }; };
+		8532536CFC85566BCD8EEEC5 /* protocol.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7B849737CD95B4AE05AB07B0 /* protocol.cpp */; settings = {ATTRIBUTES = (); }; };
+		8835592147FEE4F59BAF337A /* lusocoin.icns in Bundle Resources */ = {isa = PBXBuildFile; fileRef = 255314458616C9A40211001B /* lusocoin.icns */; settings = {ATTRIBUTES = (); }; };
+		884B07938A5D3B6474FB2C3F /* boost_system-mt in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = A14DBA87C082F448E809B93A /* boost_system-mt */; };
+		8AE18DDE6BDE22DB677CB329 /* noui.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BB47488B1142B8D675E138B5 /* noui.cpp */; settings = {ATTRIBUTES = (); }; };
+		8B24CF48A13E167034E7ACD0 /* qrc_lusocoin.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F2B8EFAA1616DC5DD4BA8085 /* qrc_lusocoin.cpp */; settings = {ATTRIBUTES = (); }; };
+		8C8FBA9435379C77B5093814 /* moc_optionsmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7403D2A96B0149BEA6A24968 /* moc_optionsmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D90B14ADB5B985073F76F09 /* moc_lusocoingui.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */; settings = {ATTRIBUTES = (); }; };
+		8F2FA8BEB3FC23AF8397C8FB /* transactiondescdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C4322C51552B3A21B2D06038 /* transactiondescdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		929E0D44111C6A32E8CE92CD /* editaddressdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 418D654B5FA4ABEE24D87427 /* editaddressdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		9532B29A76ADFEC900AE9670 /* moc_notificator.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F23F2520DA3F0C58538CA4B7 /* moc_notificator.cpp */; settings = {ATTRIBUTES = (); }; };
+		986CCD0C7E64E6956B2AAAAA /* moc_splashscreen.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6BD1BFE34AC4B769E7D86332 /* moc_splashscreen.cpp */; settings = {ATTRIBUTES = (); }; };
+		9CEFAA2B37923EEBD36BA032 /* transactiondesc.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 87956AEAB4A1964671D3B24F /* transactiondesc.cpp */; settings = {ATTRIBUTES = (); }; };
+		9D3F346886A589F4EFCE2980 /* walletframe.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EB1FC130AA1513909D88B426 /* walletframe.cpp */; settings = {ATTRIBUTES = (); }; };
+		9D53F2B2837EE924B5D23233 /* rpcrawtransaction.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 52257E4C1CEDBF5E302F1830 /* rpcrawtransaction.cpp */; settings = {ATTRIBUTES = (); }; };
+		9E9B1EF4DC48590740C40CAF /* moc_walletframe.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 49D84C00D15ED4496BA1B725 /* moc_walletframe.cpp */; settings = {ATTRIBUTES = (); }; };
+		A4F699CDE4FE539AF1BCB1B4 /* moc_qvaluecombobox.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4BA2CAB7AF73537528F3D9D4 /* moc_qvaluecombobox.cpp */; settings = {ATTRIBUTES = (); }; };
+		A84DB6BC0D3324A9DAB1464F /* leveldb.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8FD250F90607D44BCCCD1BA7 /* leveldb.cpp */; settings = {ATTRIBUTES = (); }; };
+		AC986115EA525439CE02B772 /* transactiontablemodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CB529AE4A98C3AE9DA8D7FE7 /* transactiontablemodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		AD58E517B290C085D7FC43E2 /* moc_transactionfilterproxy.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AB4B44FA299DDEA4ED90B051 /* moc_transactionfilterproxy.cpp */; settings = {ATTRIBUTES = (); }; };
+		B0D5A408710C2E5A8C599637 /* moc_transactiondesc.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 236884C55040C5CC1FF73971 /* moc_transactiondesc.cpp */; settings = {ATTRIBUTES = (); }; };
+		B8FC782B03707304D7E580AA /* moc_clientmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8DB2BECB7FF8EA85628E7EC6 /* moc_clientmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		B945720D33C996234A634D71 /* walletview.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0945DE3E3345C5E5C9B39FEE /* walletview.cpp */; settings = {ATTRIBUTES = (); }; };
+		BC4F6D46FF1CC28D9B4375B2 /* rpcwallet.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E75EFF0CE0DDE388EDDBE317 /* rpcwallet.cpp */; settings = {ATTRIBUTES = (); }; };
+		BD0157E44F1ECF39796C9FA5 /* util.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B7702A084EB00FB47F9800FD /* util.cpp */; settings = {ATTRIBUTES = (); }; };
+		BE63C062ABCF124507695961 /* db_cxx-4.8 in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 6F71B8CB6E1CE43D101A312D /* db_cxx-4.8 */; };
+		C64B60EDDAF55665E8485491 /* libmemenv.a in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 51C829C6F27BBF588617A122 /* libmemenv.a */; };
+		C6A258BD9C43FC5E39198B83 /* moc_walletstack.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3419702C484E2B89B6FFF5AB /* moc_walletstack.cpp */; settings = {ATTRIBUTES = (); }; };
+		C6FCD7F7C30B1F8F8B513E62 /* optionsmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BD81CC35FA9249EC9E6A2ACE /* optionsmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		CC22ACFE54D29D8EF13C86E2 /* moc_editaddressdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 20FC03C2C3FFF959C91F8F31 /* moc_editaddressdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		CEC89802D9AD10E1B4C77A1A /* qvalidatedlineedit.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3580A0A3BD2C3224465EB5AC /* qvalidatedlineedit.cpp */; settings = {ATTRIBUTES = (); }; };
+		CEFA034F484B9E1A457D77A8 /* lusocoinrpc.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AA8CA0E8B96995121A2C7511 /* lusocoinrpc.cpp */; settings = {ATTRIBUTES = (); }; };
+		CF535B872FDCB36E002FDCDB /* wallet.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D7618BDC04DB23AA74D6A5A4 /* wallet.cpp */; settings = {ATTRIBUTES = (); }; };
+		CF61E658DA22785EB0D657F7 /* walletmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2E3836AF182CFB375329C346 /* walletmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		D0C5F2BB291F2A1C337FD3D6 /* notificator.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E442FB9C2FB920F5B5BA588B /* notificator.cpp */; settings = {ATTRIBUTES = (); }; };
+		D23C8290277DAA95905B64B9 /* ssl in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = AC71B920FEB7B87D09A2B30D /* ssl */; };
+		D2B98FE0DA078540B90812E8 /* key.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 54E45787CDB38FD8469FE6D1 /* key.cpp */; settings = {ATTRIBUTES = (); }; };
+		D512DAD225BA20244EFAEA33 /* moc_transactiondescdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DD27CFEF10DB7DC7F2B8B1AB /* moc_transactiondescdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		D71D102945091FA79E6E7E1D /* lusocoinaddressvalidator.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 66F9AA9D55485D12CFB8CC9F /* lusocoinaddressvalidator.cpp */; settings = {ATTRIBUTES = (); }; };
+		D78EB18C669E97AF88AA7B9C /* aboutdialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A7C2F9A68DB105F001C5D444 /* aboutdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		D8DEA8CB0F743211571C7ADA /* moc_monitoreddatamapper.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 48F516D32D667382B6DD347B /* moc_monitoreddatamapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		DAE40359380C5BA404066C41 /* moc_walletmodel.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2DA11A6B431AF85EECB4D5BD /* moc_walletmodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		DB3503470EBE7996804286BD /* signverifymessagedialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 11A7693A223E2AD56D8C54FB /* signverifymessagedialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		DEBE71B434894A101C2809CF /* net.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9A82240FE7DFE86564178691 /* net.cpp */; settings = {ATTRIBUTES = (); }; };
+		E203A1EA1AFAB502F999D876 /* moc_rpcconsole.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 088B9333378F683E66E7E5D0 /* moc_rpcconsole.cpp */; settings = {ATTRIBUTES = (); }; };
+		E539023A1E47A502B28D6897 /* boost_filesystem-mt in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = A115E86ACABBC13593C0EF7B /* boost_filesystem-mt */; };
+		E81F053B78346DA9687D0A08 /* script.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DEDCC88D0E66B86A19981E7C /* script.cpp */; settings = {ATTRIBUTES = (); }; };
+		E83DD24EA2F483B9D412BC31 /* addressbookpage.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8D96E9ACECB83B90334D9234 /* addressbookpage.cpp */; settings = {ATTRIBUTES = (); }; };
+		E91D8E3BDE58E9DB94C9E825 /* sync.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FF1D9AB20C19185DBBA33A95 /* sync.cpp */; settings = {ATTRIBUTES = (); }; };
+		EEF13934C34529619DEAADEA /* moc_lusocoinaddressvalidator.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EBB04156759915318CD7138E /* moc_lusocoinaddressvalidator.cpp */; settings = {ATTRIBUTES = (); }; };
+		EF9ECE28F1F44FEF57F46271 /* transactionrecord.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C15BDDF63DBF970FF6D88379 /* transactionrecord.cpp */; settings = {ATTRIBUTES = (); }; };
+		F0B917312C65E6DDD52C81C4 /* lusocoinunits.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FFEA3C7F97CA2E0D25EC2292 /* lusocoinunits.cpp */; settings = {ATTRIBUTES = (); }; };
+		F5F6847B711B3991408A2FFA /* bloom.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5F61B74C88FF2B145D95C15F /* bloom.cpp */; settings = {ATTRIBUTES = (); }; };
+		F940A6D34D2E9E46A832019A /* paymentserver.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7823229685EA2F6633C45D94 /* paymentserver.cpp */; settings = {ATTRIBUTES = (); }; };
+		F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */; };
+		FCA898D84C581AC333FB6D35 /* addrman.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 546AFFDC61603F38C9252432 /* addrman.cpp */; settings = {ATTRIBUTES = (); }; };
+		FD1638E377D97C82BDB438FB /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C68A81EFFF79B6CA22AC /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		FD3ABB56C53C72301B4C1FAB /* alert.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DC2ABBF5ACF046A4C1C00742 /* alert.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006320ADB6D2F4BDFD2BEDA4 /* ui_aboutdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_aboutdialog.h; path = build/ui_aboutdialog.h; sourceTree = SOURCE_ROOT; };
+		0242E17804BF76E91C40F839 /* bloom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bloom.h; path = src/bloom.h; sourceTree = SOURCE_ROOT; };
+		04B112743CB012BFFC8D7C73 /* lusocoin_fa_IR.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_fa_IR.ts; path = src/qt/locale/lusocoin_fa_IR.ts; sourceTree = SOURCE_ROOT; };
+		05B3817BE9A0D72B5AD9FA1C /* hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hash.h; path = src/hash.h; sourceTree = SOURCE_ROOT; };
+		0681CAA5B164F2DE0CF94403 /* addrman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = addrman.h; path = src/addrman.h; sourceTree = SOURCE_ROOT; };
+		0847B55145D80421DCA7F71A /* json_spirit_error_position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_error_position.h; path = src/json/json_spirit_error_position.h; sourceTree = SOURCE_ROOT; };
+		088B9333378F683E66E7E5D0 /* moc_rpcconsole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_rpcconsole.cpp; path = build/moc_rpcconsole.cpp; sourceTree = SOURCE_ROOT; };
+		08D3E61A9518C8B4A92C2459 /* clientversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientversion.h; path = src/clientversion.h; sourceTree = SOURCE_ROOT; };
+		0945DE3E3345C5E5C9B39FEE /* walletview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = walletview.cpp; path = src/qt/walletview.cpp; sourceTree = SOURCE_ROOT; };
+		0AABA5F2112DA74A402F9B26 /* editaddressdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = editaddressdialog.ui; path = src/qt/forms/editaddressdialog.ui; sourceTree = SOURCE_ROOT; };
+		0ACD2FC26E579D26D246BDED /* lusocoinstrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoinstrings.cpp; path = src/qt/lusocoinstrings.cpp; sourceTree = SOURCE_ROOT; };
+		0E40E7521ED12DDE2129DBF6 /* moc_walletview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_walletview.cpp; path = build/moc_walletview.cpp; sourceTree = SOURCE_ROOT; };
+		0E560C63387E32B64C5B1A41 /* boost_chrono-mt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "boost_chrono-mt"; path = "/opt/local/lib/libboost_chrono-mt.dylib"; sourceTree = "<absolute>"; };
+		0ECAE03A503209A4183075D0 /* walletview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = walletview.h; path = src/qt/walletview.h; sourceTree = SOURCE_ROOT; };
+		10C847982E8D35F5A4C5F7D8 /* ui_optionsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_optionsdialog.h; path = build/ui_optionsdialog.h; sourceTree = SOURCE_ROOT; };
+		110097CA0A98E2BF2863E3A0 /* guiutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = guiutil.h; path = src/qt/guiutil.h; sourceTree = SOURCE_ROOT; };
+		113E10E665ED8B584285DD0C /* moc_csvmodelwriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_csvmodelwriter.cpp; path = build/moc_csvmodelwriter.cpp; sourceTree = SOURCE_ROOT; };
+		1151B74FF92271DC16305C46 /* wallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wallet.h; path = src/wallet.h; sourceTree = SOURCE_ROOT; };
+		11A7693A223E2AD56D8C54FB /* signverifymessagedialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = signverifymessagedialog.cpp; path = src/qt/signverifymessagedialog.cpp; sourceTree = SOURCE_ROOT; };
+		137A6A804AE0114134A1E744 /* transactiondesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactiondesc.h; path = src/qt/transactiondesc.h; sourceTree = SOURCE_ROOT; };
+		1518A709400B6B90AD184160 /* script.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = script.h; path = src/script.h; sourceTree = SOURCE_ROOT; };
+		166CC006FAB9FCBA326BEA03 /* moc_sendcoinsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sendcoinsdialog.cpp; path = build/moc_sendcoinsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		1670EE074B7C0A79917E1B4C /* lusocoin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoin.cpp; path = src/qt/lusocoin.cpp; sourceTree = SOURCE_ROOT; };
+		1763AF0B208B91F6849053FB /* json_spirit_stream_reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_stream_reader.h; path = src/json/json_spirit_stream_reader.h; sourceTree = SOURCE_ROOT; };
+		17B1F91360C5E186A5731163 /* lusocoin_et.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_et.ts; path = src/qt/locale/lusocoin_et.ts; sourceTree = SOURCE_ROOT; };
+		17D98AECB876AABF97716311 /* keystore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = keystore.cpp; path = src/keystore.cpp; sourceTree = SOURCE_ROOT; };
+		1A8B9D1AD0A6FDA5E751286C /* net.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = net.h; path = src/net.h; sourceTree = SOURCE_ROOT; };
+		1BE121EBA5DD7596340B381B /* aboutdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aboutdialog.h; path = src/qt/aboutdialog.h; sourceTree = SOURCE_ROOT; };
+		1DF47808B82268C616535E7B /* protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = protocol.h; path = src/protocol.h; sourceTree = SOURCE_ROOT; };
+		1F4F2068DAA4652693F95F64 /* ui_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_interface.h; path = src/ui_interface.h; sourceTree = SOURCE_ROOT; };
+		1FC2D3D7EDC00AB8EA29EB1C /* serialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serialize.h; path = src/serialize.h; sourceTree = SOURCE_ROOT; };
+		20FC03C2C3FFF959C91F8F31 /* moc_editaddressdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_editaddressdialog.cpp; path = build/moc_editaddressdialog.cpp; sourceTree = SOURCE_ROOT; };
+		2224BF95A63394D9ADA7848F /* lusocoin_uk.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_uk.ts; path = src/qt/locale/lusocoin_uk.ts; sourceTree = SOURCE_ROOT; };
+		234486F2C05BD92EBB86CE40 /* lusocoin_fr_CA.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_fr_CA.ts; path = src/qt/locale/lusocoin_fr_CA.ts; sourceTree = SOURCE_ROOT; };
+		236884C55040C5CC1FF73971 /* moc_transactiondesc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_transactiondesc.cpp; path = build/moc_transactiondesc.cpp; sourceTree = SOURCE_ROOT; };
+		2378517C6D2C1D8C2EF09CA5 /* alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alert.h; path = src/alert.h; sourceTree = SOURCE_ROOT; };
+		23A5EB4BE66C42BAD04BF374 /* uint256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uint256.h; path = src/uint256.h; sourceTree = SOURCE_ROOT; };
+		24D471D15F4D10E0E9CDCBA9 /* json_spirit_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_value.h; path = src/json/json_spirit_value.h; sourceTree = SOURCE_ROOT; };
+		255314458616C9A40211001B /* lusocoin.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = lusocoin.icns; path = src/qt/res/icons/lusocoin.icns; sourceTree = SOURCE_ROOT; };
+		260E6BAF5AE22B8DB884A788 /* walletframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = walletframe.h; path = src/qt/walletframe.h; sourceTree = SOURCE_ROOT; };
+		27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		28C0DE7B5F79797FB1F237E6 /* lusocoin_es_CL.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_es_CL.ts; path = src/qt/locale/lusocoin_es_CL.ts; sourceTree = SOURCE_ROOT; };
+		2B9005EBC5367A1D093B810C /* moc_transactionview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_transactionview.cpp; path = build/moc_transactionview.cpp; sourceTree = SOURCE_ROOT; };
+		2C15C5B52F35EA388EBAB757 /* rpcconsole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcconsole.cpp; path = src/qt/rpcconsole.cpp; sourceTree = SOURCE_ROOT; };
+		2C51F64A3430117D2F6C7CB5 /* clientmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = clientmodel.cpp; path = src/qt/clientmodel.cpp; sourceTree = SOURCE_ROOT; };
+		2D30D057A077948456B3FE35 /* libleveldb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libleveldb.a; path = src/leveldb/libleveldb.a; sourceTree = SOURCE_ROOT; };
+		2DA11A6B431AF85EECB4D5BD /* moc_walletmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_walletmodel.cpp; path = build/moc_walletmodel.cpp; sourceTree = SOURCE_ROOT; };
+		2E3836AF182CFB375329C346 /* walletmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = walletmodel.cpp; path = src/qt/walletmodel.cpp; sourceTree = SOURCE_ROOT; };
+		308EAA29D85C09A352ECC243 /* lusocoin_lv_LV.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_lv_LV.ts; path = src/qt/locale/lusocoin_lv_LV.ts; sourceTree = SOURCE_ROOT; };
+		31DD861CD0A6A9747CBC540A /* rpcdump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcdump.cpp; path = src/rpcdump.cpp; sourceTree = SOURCE_ROOT; };
+		331346AA6CF77AECB4C78653 /* lusocoin_zh_TW.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_zh_TW.ts; path = src/qt/locale/lusocoin_zh_TW.ts; sourceTree = SOURCE_ROOT; };
+		33E7F6789888AEDF678EC8F4 /* askpassphrasedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = askpassphrasedialog.h; path = src/qt/askpassphrasedialog.h; sourceTree = SOURCE_ROOT; };
+		3419702C484E2B89B6FFF5AB /* moc_walletstack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_walletstack.cpp; path = build/moc_walletstack.cpp; sourceTree = SOURCE_ROOT; };
+		3573742090E4E5D9E2032B00 /* lusocoin_bg.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_bg.ts; path = src/qt/locale/lusocoin_bg.ts; sourceTree = SOURCE_ROOT; };
+		3580A0A3BD2C3224465EB5AC /* qvalidatedlineedit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qvalidatedlineedit.cpp; path = src/qt/qvalidatedlineedit.cpp; sourceTree = SOURCE_ROOT; };
+		35ADED65DF872D898CFD7425 /* sendcoinsdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = sendcoinsdialog.ui; path = src/qt/forms/sendcoinsdialog.ui; sourceTree = SOURCE_ROOT; };
+		3627F02371334F49DCE3BD06 /* rpcblockchain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcblockchain.cpp; path = src/rpcblockchain.cpp; sourceTree = SOURCE_ROOT; };
+		37286052A0C723D805EDD7D6 /* transactiondescdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactiondescdialog.h; path = src/qt/transactiondescdialog.h; sourceTree = SOURCE_ROOT; };
+		3812B2A6C37C14B5613509D8 /* transactionrecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactionrecord.h; path = src/qt/transactionrecord.h; sourceTree = SOURCE_ROOT; };
+		3940A7EBD00EE84C0E01B0F2 /* json_spirit_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_utils.h; path = src/json/json_spirit_utils.h; sourceTree = SOURCE_ROOT; };
+		3A3E78F06E71043703CF9BD6 /* moc_lusocoinunits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_lusocoinunits.cpp; path = build/moc_lusocoinunits.cpp; sourceTree = SOURCE_ROOT; };
+		3B5A9B7D780FF672241548ED /* walletdb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = walletdb.cpp; path = src/walletdb.cpp; sourceTree = SOURCE_ROOT; };
+		3B9937E7BE1D536CE91ADE7E /* optionsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = optionsdialog.h; path = src/qt/optionsdialog.h; sourceTree = SOURCE_ROOT; };
+		3D56B5125EA799DA86C7BC85 /* guiconstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = guiconstants.h; path = src/qt/guiconstants.h; sourceTree = SOURCE_ROOT; };
+		3D95A48D13A00BFD496F36B8 /* csvmodelwriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = csvmodelwriter.h; path = src/qt/csvmodelwriter.h; sourceTree = SOURCE_ROOT; };
+		3DA46F4A28E377E076591DC6 /* clientmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientmodel.h; path = src/qt/clientmodel.h; sourceTree = SOURCE_ROOT; };
+		3DD3D8D3C56A17596A7C7B79 /* signverifymessagedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = signverifymessagedialog.ui; path = src/qt/forms/signverifymessagedialog.ui; sourceTree = SOURCE_ROOT; };
+		3FAFA942875BDADB071D4501 /* lusocoin_bs.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_bs.ts; path = src/qt/locale/lusocoin_bs.ts; sourceTree = SOURCE_ROOT; };
+		418D654B5FA4ABEE24D87427 /* editaddressdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = editaddressdialog.cpp; path = src/qt/editaddressdialog.cpp; sourceTree = SOURCE_ROOT; };
+		41EC5AF037ABE8FF8B9A476B /* json_spirit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit.h; path = src/json/json_spirit.h; sourceTree = SOURCE_ROOT; };
+		46EC93803811240FE7B2B9E8 /* hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cpp; path = src/hash.cpp; sourceTree = SOURCE_ROOT; };
+		47F01DF4185A134C006FC35F /* Lusocoin-Qt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lusocoin-Qt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48158819D794DA2D68F318A7 /* keystore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = keystore.h; path = src/keystore.h; sourceTree = SOURCE_ROOT; };
+		48F516D32D667382B6DD347B /* moc_monitoreddatamapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_monitoreddatamapper.cpp; path = build/moc_monitoreddatamapper.cpp; sourceTree = SOURCE_ROOT; };
+		4942713BCD2752BB531BF76C /* netbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = netbase.cpp; path = src/netbase.cpp; sourceTree = SOURCE_ROOT; };
+		4979949E6507F55E91F6451D /* qvalidatedlineedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qvalidatedlineedit.h; path = src/qt/qvalidatedlineedit.h; sourceTree = SOURCE_ROOT; };
+		49D84C00D15ED4496BA1B725 /* moc_walletframe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_walletframe.cpp; path = build/moc_walletframe.cpp; sourceTree = SOURCE_ROOT; };
+		4BA2CAB7AF73537528F3D9D4 /* moc_qvaluecombobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_qvaluecombobox.cpp; path = build/moc_qvaluecombobox.cpp; sourceTree = SOURCE_ROOT; };
+		4CB89A87C5D3C060A282EA9C /* transactionview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactionview.h; path = src/qt/transactionview.h; sourceTree = SOURCE_ROOT; };
+		4D97731782BCD54DAFDEC436 /* boost_thread-mt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "boost_thread-mt"; path = "/opt/local/lib/libboost_thread-mt.dylib"; sourceTree = "<absolute>"; };
+		4FA558A150244F38C8D299EA /* ui_signverifymessagedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_signverifymessagedialog.h; path = build/ui_signverifymessagedialog.h; sourceTree = SOURCE_ROOT; };
+		4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_lusocoingui.cpp; path = build/moc_lusocoingui.cpp; sourceTree = SOURCE_ROOT; };
+		50388E8625CEBCCE224ABDE5 /* qvaluecombobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qvaluecombobox.cpp; path = src/qt/qvaluecombobox.cpp; sourceTree = SOURCE_ROOT; };
+		51287F5319BE5A7DFB2B1441 /* lusocoin_lt.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_lt.ts; path = src/qt/locale/lusocoin_lt.ts; sourceTree = SOURCE_ROOT; };
+		51C829C6F27BBF588617A122 /* libmemenv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmemenv.a; path = src/leveldb/libmemenv.a; sourceTree = SOURCE_ROOT; };
+		5219CC57B74A15932B329F4B /* lusocoingui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoingui.cpp; path = src/qt/lusocoingui.cpp; sourceTree = SOURCE_ROOT; };
+		52257E4C1CEDBF5E302F1830 /* rpcrawtransaction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcrawtransaction.cpp; path = src/rpcrawtransaction.cpp; sourceTree = SOURCE_ROOT; };
+		546AFFDC61603F38C9252432 /* addrman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = addrman.cpp; path = src/addrman.cpp; sourceTree = SOURCE_ROOT; };
+		54E45787CDB38FD8469FE6D1 /* key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = key.cpp; path = src/key.cpp; sourceTree = SOURCE_ROOT; };
+		574B9F8673EA19404F178089 /* allocators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = allocators.h; path = src/allocators.h; sourceTree = SOURCE_ROOT; };
+		57C6352E8E6EFFC7318BD274 /* json_spirit_reader_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_reader_template.h; path = src/json/json_spirit_reader_template.h; sourceTree = SOURCE_ROOT; };
+		58B51675B81CE123DE80B398 /* overviewpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = overviewpage.h; path = src/qt/overviewpage.h; sourceTree = SOURCE_ROOT; };
+		59A80B7DEF583E0548ABACA4 /* overviewpage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = overviewpage.cpp; path = src/qt/overviewpage.cpp; sourceTree = SOURCE_ROOT; };
+		5D0A7E2D9D99B1DD60DF5013 /* lusocoin_eo.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_eo.ts; path = src/qt/locale/lusocoin_eo.ts; sourceTree = SOURCE_ROOT; };
+		5DB2CA388FA51E09292334A1 /* optionsdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = optionsdialog.ui; path = src/qt/forms/optionsdialog.ui; sourceTree = SOURCE_ROOT; };
+		5E566BBFC352766B224FB0C7 /* monitoreddatamapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = monitoreddatamapper.cpp; path = src/qt/monitoreddatamapper.cpp; sourceTree = SOURCE_ROOT; };
+		5F61B74C88FF2B145D95C15F /* bloom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bloom.cpp; path = src/bloom.cpp; sourceTree = SOURCE_ROOT; };
+		5F97480B63F2A55CEF1982C8 /* moc_addressbookpage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_addressbookpage.cpp; path = build/moc_addressbookpage.cpp; sourceTree = SOURCE_ROOT; };
+		5FFE5929B7CD01815FAAE986 /* lusocoin_ro_RO.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ro_RO.ts; path = src/qt/locale/lusocoin_ro_RO.ts; sourceTree = SOURCE_ROOT; };
+		61B4C1AF121658291D80CCC0 /* moc_askpassphrasedialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_askpassphrasedialog.cpp; path = build/moc_askpassphrasedialog.cpp; sourceTree = SOURCE_ROOT; };
+		62CD76B3CE25F73E29D28301 /* lusocoin_af_ZA.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_af_ZA.ts; path = src/qt/locale/lusocoin_af_ZA.ts; sourceTree = SOURCE_ROOT; };
+		6550BC5D72B2AEBC05173AC2 /* moc_paymentserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_paymentserver.cpp; path = build/moc_paymentserver.cpp; sourceTree = SOURCE_ROOT; };
+		66A26D2B3CEB7E73DD44A47E /* lusocoin_zh_CN.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_zh_CN.ts; path = src/qt/locale/lusocoin_zh_CN.ts; sourceTree = SOURCE_ROOT; };
+		66F9AA9D55485D12CFB8CC9F /* lusocoinaddressvalidator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoinaddressvalidator.cpp; path = src/qt/lusocoinaddressvalidator.cpp; sourceTree = SOURCE_ROOT; };
+		68EDA2E1384EA8B4FEED2B15 /* base58.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base58.h; path = src/base58.h; sourceTree = SOURCE_ROOT; };
+		6BD1BFE34AC4B769E7D86332 /* moc_splashscreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_splashscreen.cpp; path = build/moc_splashscreen.cpp; sourceTree = SOURCE_ROOT; };
+		6DD199756939C4D2E09E316E /* lusocoin_tr.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_tr.ts; path = src/qt/locale/lusocoin_tr.ts; sourceTree = SOURCE_ROOT; };
+		6EB59B5D9001B2C5ECF3A1E3 /* mruset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mruset.h; path = src/mruset.h; sourceTree = SOURCE_ROOT; };
+		6F71B8CB6E1CE43D101A312D /* db_cxx-4.8 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "db_cxx-4.8"; path = "/opt/local/lib/db48/libdb_cxx-4.8.dylib"; sourceTree = "<absolute>"; };
+		7090E4F4327E1D6F7AE5BB61 /* ui_overviewpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_overviewpage.h; path = build/ui_overviewpage.h; sourceTree = SOURCE_ROOT; };
+		73CA38276286B049F37D96FE /* lusocoin_ru.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ru.ts; path = src/qt/locale/lusocoin_ru.ts; sourceTree = SOURCE_ROOT; };
+		7403D2A96B0149BEA6A24968 /* moc_optionsmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_optionsmodel.cpp; path = build/moc_optionsmodel.cpp; sourceTree = SOURCE_ROOT; };
+		74A5FF41C570AAAFB1F16844 /* lusocoin_la.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_la.ts; path = src/qt/locale/lusocoin_la.ts; sourceTree = SOURCE_ROOT; };
+		756D3E8725A64F224DDBBD26 /* crypter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = crypter.h; path = src/crypter.h; sourceTree = SOURCE_ROOT; };
+		758DCD6635F33B160A9481C2 /* paymentserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = paymentserver.h; path = src/qt/paymentserver.h; sourceTree = SOURCE_ROOT; };
+		76B18BD21CCF64E256F029A8 /* sendcoinsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sendcoinsdialog.cpp; path = src/qt/sendcoinsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		772F489C7D0A32DE3BADBFBC /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/util.h; sourceTree = SOURCE_ROOT; };
+		77FB39ED460442634F62B71E /* macdockiconhandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = macdockiconhandler.h; path = src/qt/macdockiconhandler.h; sourceTree = SOURCE_ROOT; };
+		7823229685EA2F6633C45D94 /* paymentserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = paymentserver.cpp; path = src/qt/paymentserver.cpp; sourceTree = SOURCE_ROOT; };
+		7B849737CD95B4AE05AB07B0 /* protocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = protocol.cpp; path = src/protocol.cpp; sourceTree = SOURCE_ROOT; };
+		7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		7EC3C68A81EFFF79B6CA22AC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		7F977A654485787FDE7F4841 /* optionsmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = optionsmodel.h; path = src/qt/optionsmodel.h; sourceTree = SOURCE_ROOT; };
+		802ED37FA57C1A88C99F2209 /* signverifymessagedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = signverifymessagedialog.h; path = src/qt/signverifymessagedialog.h; sourceTree = SOURCE_ROOT; };
+		8094838580E1BB7A3BB8FC78 /* db.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = db.cpp; path = src/db.cpp; sourceTree = SOURCE_ROOT; };
+		81BE4397D3128227184B41C3 /* lusocoin_el_GR.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_el_GR.ts; path = src/qt/locale/lusocoin_el_GR.ts; sourceTree = SOURCE_ROOT; };
+		81E4F16A1B5D5B7CA25351A6 /* txdb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txdb.cpp; path = src/txdb.cpp; sourceTree = SOURCE_ROOT; };
+		821416211D63F190AAAD016A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		85371E5F8D80E7B2DB5080DA /* lusocoin_fa.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_fa.ts; path = src/qt/locale/lusocoin_fa.ts; sourceTree = SOURCE_ROOT; };
+		86D4A6FE594D75CD04314D9C /* moc_macdockiconhandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_macdockiconhandler.cpp; path = build/moc_macdockiconhandler.cpp; sourceTree = SOURCE_ROOT; };
+		87381E3E8827FB624E493DB6 /* lusocoin_hi_IN.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_hi_IN.ts; path = src/qt/locale/lusocoin_hi_IN.ts; sourceTree = SOURCE_ROOT; };
+		87956AEAB4A1964671D3B24F /* transactiondesc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactiondesc.cpp; path = src/qt/transactiondesc.cpp; sourceTree = SOURCE_ROOT; };
+		87CF577F6DA7AA00ABE02E76 /* compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = compat.h; path = src/compat.h; sourceTree = SOURCE_ROOT; };
+		88316C9AA9514C038C930429 /* checkqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = checkqueue.h; path = src/checkqueue.h; sourceTree = SOURCE_ROOT; };
+		8A64C98378B1E66DD74BD9D3 /* lusocoin_da.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_da.ts; path = src/qt/locale/lusocoin_da.ts; sourceTree = SOURCE_ROOT; };
+		8ABDFE389685DB005358D2A7 /* ui_transactiondescdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_transactiondescdialog.h; path = build/ui_transactiondescdialog.h; sourceTree = SOURCE_ROOT; };
+		8BA5314430C8DBBCC7D98332 /* lusocoin.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = lusocoin.qrc; path = src/qt/lusocoin.qrc; sourceTree = SOURCE_ROOT; };
+		8C859B51E45A48931ABF1317 /* walletdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = walletdb.h; path = src/walletdb.h; sourceTree = SOURCE_ROOT; };
+		8D1A94236062B7CD3737DE05 /* moc_sendcoinsentry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sendcoinsentry.cpp; path = build/moc_sendcoinsentry.cpp; sourceTree = SOURCE_ROOT; };
+		8D34AE1F1D3EB4D6D6D31224 /* aboutdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = aboutdialog.ui; path = src/qt/forms/aboutdialog.ui; sourceTree = SOURCE_ROOT; };
+		8D96E9ACECB83B90334D9234 /* addressbookpage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = addressbookpage.cpp; path = src/qt/addressbookpage.cpp; sourceTree = SOURCE_ROOT; };
+		8DB2BECB7FF8EA85628E7EC6 /* moc_clientmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_clientmodel.cpp; path = build/moc_clientmodel.cpp; sourceTree = SOURCE_ROOT; };
+		8DB7EDBE1F3C84D115A00A59 /* crypto */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = crypto; path = /opt/local/lib/libcrypto.1.0.0.dylib; sourceTree = "<absolute>"; };
+		8DD264C2BE6A3EBFB3FC6C0B /* ui_editaddressdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_editaddressdialog.h; path = build/ui_editaddressdialog.h; sourceTree = SOURCE_ROOT; };
+		8F0E3635B1A1D52FD3826183 /* lusocoin_ca.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ca.ts; path = src/qt/locale/lusocoin_ca.ts; sourceTree = SOURCE_ROOT; };
+		8FD250F90607D44BCCCD1BA7 /* leveldb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = leveldb.cpp; path = src/leveldb.cpp; sourceTree = SOURCE_ROOT; };
+		907758BF5AA68491B3DCE80F /* lusocoin-qt.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lusocoin-qt.pro"; sourceTree = SOURCE_ROOT; };
+		909254A40B12E3D7730D816C /* moc_aboutdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_aboutdialog.cpp; path = build/moc_aboutdialog.cpp; sourceTree = SOURCE_ROOT; };
+		90ABF38065A3F7D1BF9E8BD6 /* overviewpage.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = overviewpage.ui; path = src/qt/forms/overviewpage.ui; sourceTree = SOURCE_ROOT; };
+		9322DC566A38CA67F84A6AD3 /* lusocoin_fr.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_fr.ts; path = src/qt/locale/lusocoin_fr.ts; sourceTree = SOURCE_ROOT; };
+		934D9AA6E6E57B07B1DD1AB8 /* walletstack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = walletstack.cpp; path = src/qt/walletstack.cpp; sourceTree = SOURCE_ROOT; };
+		93CB504E1E918EC99C0A3368 /* moc_signverifymessagedialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_signverifymessagedialog.cpp; path = build/moc_signverifymessagedialog.cpp; sourceTree = SOURCE_ROOT; };
+		94E3EE1F7A607D449A5820C1 /* lusocoin_ja.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ja.ts; path = src/qt/locale/lusocoin_ja.ts; sourceTree = SOURCE_ROOT; };
+		998357BC40C89D644815A6FD /* sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sync.h; path = src/sync.h; sourceTree = SOURCE_ROOT; };
+		9A82240FE7DFE86564178691 /* net.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = net.cpp; path = src/net.cpp; sourceTree = SOURCE_ROOT; };
+		9B36DA7E32F0304E780E7972 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		9BC1E6EEC2E23A2985D3C903 /* limitedmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = limitedmap.h; path = src/limitedmap.h; sourceTree = SOURCE_ROOT; };
+		9E1F418151C4F9D5C609A73F /* moc_optionsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_optionsdialog.cpp; path = build/moc_optionsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		A0FF2D5FD9051608678DFB91 /* db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = db.h; path = src/db.h; sourceTree = SOURCE_ROOT; };
+		A115E86ACABBC13593C0EF7B /* boost_filesystem-mt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "boost_filesystem-mt"; path = "/opt/local/lib/libboost_filesystem-mt.dylib"; sourceTree = "<absolute>"; };
+		A14DBA87C082F448E809B93A /* boost_system-mt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "boost_system-mt"; path = "/opt/local/lib/libboost_system-mt.dylib"; sourceTree = "<absolute>"; };
+		A2313FE103F15A1A07E0C10C /* transactionview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactionview.cpp; path = src/qt/transactionview.cpp; sourceTree = SOURCE_ROOT; };
+		A2391C83D5AAC034CE886F44 /* lusocoinamountfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lusocoinamountfield.h; path = src/qt/lusocoinamountfield.h; sourceTree = SOURCE_ROOT; };
+		A45200749BD876EC0CE83571 /* lusocoin_sk.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_sk.ts; path = src/qt/locale/lusocoin_sk.ts; sourceTree = SOURCE_ROOT; };
+		A459A939BE4FE065DD5F64AB /* guiutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = guiutil.cpp; path = src/qt/guiutil.cpp; sourceTree = SOURCE_ROOT; };
+		A4B4A1EAA3CC10945B755590 /* moc_addresstablemodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_addresstablemodel.cpp; path = build/moc_addresstablemodel.cpp; sourceTree = SOURCE_ROOT; };
+		A7C2F9A68DB105F001C5D444 /* aboutdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = aboutdialog.cpp; path = src/qt/aboutdialog.cpp; sourceTree = SOURCE_ROOT; };
+		AA8B277B97D43D5C2DEFDC1B /* lusocoin_es.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_es.ts; path = src/qt/locale/lusocoin_es.ts; sourceTree = SOURCE_ROOT; };
+		AA8CA0E8B96995121A2C7511 /* lusocoinrpc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoinrpc.cpp; path = src/lusocoinrpc.cpp; sourceTree = SOURCE_ROOT; };
+		AB3987919942CF51FC73CAD8 /* lusocoin_nl.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_nl.ts; path = src/qt/locale/lusocoin_nl.ts; sourceTree = SOURCE_ROOT; };
+		AB4B44FA299DDEA4ED90B051 /* moc_transactionfilterproxy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_transactionfilterproxy.cpp; path = build/moc_transactionfilterproxy.cpp; sourceTree = SOURCE_ROOT; };
+		ABB72B7508F76A396BE621AE /* moc_qvalidatedlineedit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_qvalidatedlineedit.cpp; path = build/moc_qvalidatedlineedit.cpp; sourceTree = SOURCE_ROOT; };
+		ABC7D3E60DCA7755E8BB147E /* askpassphrasedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = askpassphrasedialog.ui; path = src/qt/forms/askpassphrasedialog.ui; sourceTree = SOURCE_ROOT; };
+		AC71B920FEB7B87D09A2B30D /* ssl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ssl; path = /opt/local/lib/libssl.1.0.0.dylib; sourceTree = "<absolute>"; };
+		ACD02680B40A5768D8C8CA08 /* ui_addressbookpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_addressbookpage.h; path = build/ui_addressbookpage.h; sourceTree = SOURCE_ROOT; };
+		AE1680002A56FE1D7BC7584E /* sendcoinsentry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sendcoinsentry.h; path = src/qt/sendcoinsentry.h; sourceTree = SOURCE_ROOT; };
+		B0D9669919AE05EA8BEA9EB0 /* csvmodelwriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = csvmodelwriter.cpp; path = src/qt/csvmodelwriter.cpp; sourceTree = SOURCE_ROOT; };
+		B1666DA7E30CA4A869C2E817 /* lusocoin_pl.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_pl.ts; path = src/qt/locale/lusocoin_pl.ts; sourceTree = SOURCE_ROOT; };
+		B5CC38FA446B1E629FFFC4C2 /* lusocoin_sv.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_sv.ts; path = src/qt/locale/lusocoin_sv.ts; sourceTree = SOURCE_ROOT; };
+		B62CD0C7B4F2E0FF5941B71C /* splashscreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = splashscreen.h; path = src/qt/splashscreen.h; sourceTree = SOURCE_ROOT; };
+		B68E5D71DFBF64632ED9561F /* lusocoin_he.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_he.ts; path = src/qt/locale/lusocoin_he.ts; sourceTree = SOURCE_ROOT; };
+		B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = /Library/Frameworks/QtNetwork.framework; sourceTree = "<absolute>"; };
+		B7702A084EB00FB47F9800FD /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		B7BB206D5419F89085CE6E0E /* notificator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = notificator.h; path = src/qt/notificator.h; sourceTree = SOURCE_ROOT; };
+		B7DD744B2F98334D6D195836 /* sendcoinsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sendcoinsdialog.h; path = src/qt/sendcoinsdialog.h; sourceTree = SOURCE_ROOT; };
+		BAE9CF82F58C517F6763BF4E /* lusocoin_fi.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_fi.ts; path = src/qt/locale/lusocoin_fi.ts; sourceTree = SOURCE_ROOT; };
+		BB47488B1142B8D675E138B5 /* noui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = noui.cpp; path = src/noui.cpp; sourceTree = SOURCE_ROOT; };
+		BC43CC307C1D028D6F648853 /* lusocoin_it.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_it.ts; path = src/qt/locale/lusocoin_it.ts; sourceTree = SOURCE_ROOT; };
+		BC52FAE3CF80A871217A111D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		BD642044BA760FE5537BB142 /* lusocoin_en.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_en.ts; path = src/qt/locale/lusocoin_en.ts; sourceTree = SOURCE_ROOT; };
+		BD81CC35FA9249EC9E6A2ACE /* optionsmodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = optionsmodel.cpp; path = src/qt/optionsmodel.cpp; sourceTree = SOURCE_ROOT; };
+		BEDE70C31F1A98D3ADC2BD9E /* lusocoin_pt_PT.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_pt_PT.ts; path = src/qt/locale/lusocoin_pt_PT.ts; sourceTree = SOURCE_ROOT; };
+		BEE2910C2FDC390D1CA59344 /* lusocoinrpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lusocoinrpc.h; path = src/lusocoinrpc.h; sourceTree = SOURCE_ROOT; };
+		C04BD6830C6C2F5DAC54B155 /* addresstablemodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = addresstablemodel.cpp; path = src/qt/addresstablemodel.cpp; sourceTree = SOURCE_ROOT; };
+		C15BDDF63DBF970FF6D88379 /* transactionrecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactionrecord.cpp; path = src/qt/transactionrecord.cpp; sourceTree = SOURCE_ROOT; };
+		C2B869AD33A4904B7E0C7C88 /* moc_lusocoinamountfield.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_lusocoinamountfield.cpp; path = build/moc_lusocoinamountfield.cpp; sourceTree = SOURCE_ROOT; };
+		C2C990FEE1C3381462640E80 /* rpcmining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcmining.cpp; path = src/rpcmining.cpp; sourceTree = SOURCE_ROOT; };
+		C2FAC58575580AA9A46CBA47 /* rpcnet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcnet.cpp; path = src/rpcnet.cpp; sourceTree = SOURCE_ROOT; };
+		C33D3CE1A2A004536AAF1B90 /* checkpoints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = checkpoints.cpp; path = src/checkpoints.cpp; sourceTree = SOURCE_ROOT; };
+		C4322C51552B3A21B2D06038 /* transactiondescdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactiondescdialog.cpp; path = src/qt/transactiondescdialog.cpp; sourceTree = SOURCE_ROOT; };
+		C46C0E2B9993CF20BEEF1EEE /* addressbookpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = addressbookpage.h; path = src/qt/addressbookpage.h; sourceTree = SOURCE_ROOT; };
+		C54FF510DD5922A8FEF3FC12 /* lusocoin_gu_IN.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_gu_IN.ts; path = src/qt/locale/lusocoin_gu_IN.ts; sourceTree = SOURCE_ROOT; };
+		C553B2767151ED8B78D3ECE0 /* rpcconsole.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = rpcconsole.ui; path = src/qt/forms/rpcconsole.ui; sourceTree = SOURCE_ROOT; };
+		C61070C281AED6DED69036C0 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = version.h; path = src/version.h; sourceTree = SOURCE_ROOT; };
+		C6153F4960180CC6F8120969 /* qvaluecombobox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qvaluecombobox.h; path = src/qt/qvaluecombobox.h; sourceTree = SOURCE_ROOT; };
+		C657AA91009FA99CD4158DAB /* leveldb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = leveldb.h; path = src/leveldb.h; sourceTree = SOURCE_ROOT; };
+		C865A8939105E6350A50AF02 /* init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = src/init.cpp; sourceTree = SOURCE_ROOT; };
+		C9FCC2C9ACCC2D52253F8720 /* lusocoinaddressvalidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lusocoinaddressvalidator.h; path = src/qt/lusocoinaddressvalidator.h; sourceTree = SOURCE_ROOT; };
+		CA236E1C56B32D792A187FAB /* sendcoinsentry.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = sendcoinsentry.ui; path = src/qt/forms/sendcoinsentry.ui; sourceTree = SOURCE_ROOT; };
+		CABB29A5D764168517547299 /* lusocoin_eu_ES.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_eu_ES.ts; path = src/qt/locale/lusocoin_eu_ES.ts; sourceTree = SOURCE_ROOT; };
+		CB3AB4F05A093C1FDF7A4234 /* lusocoin_hr.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_hr.ts; path = src/qt/locale/lusocoin_hr.ts; sourceTree = SOURCE_ROOT; };
+		CB529AE4A98C3AE9DA8D7FE7 /* transactiontablemodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactiontablemodel.cpp; path = src/qt/transactiontablemodel.cpp; sourceTree = SOURCE_ROOT; };
+		CDFA7E3D2FD7007B447147D5 /* json_spirit_writer_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_writer_template.h; path = src/json/json_spirit_writer_template.h; sourceTree = SOURCE_ROOT; };
+		CE5C635AB88FF954C6B89340 /* editaddressdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = editaddressdialog.h; path = src/qt/editaddressdialog.h; sourceTree = SOURCE_ROOT; };
+		D3299ADD50F0FBF37C2EDF0F /* optionsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = optionsdialog.cpp; path = src/qt/optionsdialog.cpp; sourceTree = SOURCE_ROOT; };
+		D372F2991F4FE7BB57E8684A /* walletstack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = walletstack.h; path = src/qt/walletstack.h; sourceTree = SOURCE_ROOT; };
+		D4D9193F497641E49BA6A732 /* rpcconsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rpcconsole.h; path = src/qt/rpcconsole.h; sourceTree = SOURCE_ROOT; };
+		D58D02D777A1C816604D2FFA /* crypter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = crypter.cpp; path = src/crypter.cpp; sourceTree = SOURCE_ROOT; };
+		D5CED353D415CA8E8F0A67B4 /* lusocoin_sr.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_sr.ts; path = src/qt/locale/lusocoin_sr.ts; sourceTree = SOURCE_ROOT; };
+		D5EB44925C8AC37C5941FCBC /* walletmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = walletmodel.h; path = src/qt/walletmodel.h; sourceTree = SOURCE_ROOT; };
+		D7618BDC04DB23AA74D6A5A4 /* wallet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = wallet.cpp; path = src/wallet.cpp; sourceTree = SOURCE_ROOT; };
+		D9B68888E2A99F8AB830F98B /* lusocoin_hu.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_hu.ts; path = src/qt/locale/lusocoin_hu.ts; sourceTree = SOURCE_ROOT; };
+		D9D7C0AC1845D4D4DF29B6A7 /* bignum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bignum.h; path = src/bignum.h; sourceTree = SOURCE_ROOT; };
+		D9D898D294665DEC62FCD828 /* macdockiconhandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = macdockiconhandler.mm; path = src/qt/macdockiconhandler.mm; sourceTree = SOURCE_ROOT; };
+		DAED567B109C79E19F17A86C /* moc_transactiontablemodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_transactiontablemodel.cpp; path = build/moc_transactiontablemodel.cpp; sourceTree = SOURCE_ROOT; };
+		DB07EF9A95E79F7A04BE51D7 /* ui_askpassphrasedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_askpassphrasedialog.h; path = build/ui_askpassphrasedialog.h; sourceTree = SOURCE_ROOT; };
+		DB4B50F01F65B96F01A0BB7C /* ui_sendcoinsentry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_sendcoinsentry.h; path = build/ui_sendcoinsentry.h; sourceTree = SOURCE_ROOT; };
+		DC2ABBF5ACF046A4C1C00742 /* alert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = alert.cpp; path = src/alert.cpp; sourceTree = SOURCE_ROOT; };
+		DD01571C9DE4333A6AF0B54C /* key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = key.h; path = src/key.h; sourceTree = SOURCE_ROOT; };
+		DD27CFEF10DB7DC7F2B8B1AB /* moc_transactiondescdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_transactiondescdialog.cpp; path = build/moc_transactiondescdialog.cpp; sourceTree = SOURCE_ROOT; };
+		DD4E589774B94ED661E02D3E /* lusocoin_cy.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_cy.ts; path = src/qt/locale/lusocoin_cy.ts; sourceTree = SOURCE_ROOT; };
+		DEDCC88D0E66B86A19981E7C /* script.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = script.cpp; path = src/script.cpp; sourceTree = SOURCE_ROOT; };
+		DEFEDE4762FD62A298BD8A09 /* askpassphrasedialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = askpassphrasedialog.cpp; path = src/qt/askpassphrasedialog.cpp; sourceTree = SOURCE_ROOT; };
+		DF95FC819B237793CB462142 /* threadsafety.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = threadsafety.h; path = src/threadsafety.h; sourceTree = SOURCE_ROOT; };
+		DFDA97C01010625DAD1E6034 /* lusocoin_pt_BR.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_pt_BR.ts; path = src/qt/locale/lusocoin_pt_BR.ts; sourceTree = SOURCE_ROOT; };
+		E00C97349FBB8BC3813D9B5B /* lusocoinamountfield.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoinamountfield.cpp; path = src/qt/lusocoinamountfield.cpp; sourceTree = SOURCE_ROOT; };
+		E015C6EB23AB051E1145C9B9 /* addressbookpage.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = addressbookpage.ui; path = src/qt/forms/addressbookpage.ui; sourceTree = SOURCE_ROOT; };
+		E041574CC3D04D5FB7EC4330 /* lusocoin_de.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_de.ts; path = src/qt/locale/lusocoin_de.ts; sourceTree = SOURCE_ROOT; };
+		E096C181E672E11E31965A10 /* monitoreddatamapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = monitoreddatamapper.h; path = src/qt/monitoreddatamapper.h; sourceTree = SOURCE_ROOT; };
+		E236CBDED95A29F2B35DBD4F /* lusocoin_cs.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_cs.ts; path = src/qt/locale/lusocoin_cs.ts; sourceTree = SOURCE_ROOT; };
+		E3B0B9197F4A56F9E534FFAF /* txdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txdb.h; path = src/txdb.h; sourceTree = SOURCE_ROOT; };
+		E442FB9C2FB920F5B5BA588B /* notificator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = notificator.cpp; path = src/qt/notificator.cpp; sourceTree = SOURCE_ROOT; };
+		E559C42FB1E911EB5DE3C2DB /* moc_guiutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_guiutil.cpp; path = build/moc_guiutil.cpp; sourceTree = SOURCE_ROOT; };
+		E603E4F04A4D38095F16EBD3 /* lusocoinunits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lusocoinunits.h; path = src/qt/lusocoinunits.h; sourceTree = SOURCE_ROOT; };
+		E74648DFE36EC1841B222CA9 /* splashscreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = splashscreen.cpp; path = src/qt/splashscreen.cpp; sourceTree = SOURCE_ROOT; };
+		E75EFF0CE0DDE388EDDBE317 /* rpcwallet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpcwallet.cpp; path = src/rpcwallet.cpp; sourceTree = SOURCE_ROOT; };
+		E798F6AE6C029EDA4B130D6B /* ui_sendcoinsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_sendcoinsdialog.h; path = build/ui_sendcoinsdialog.h; sourceTree = SOURCE_ROOT; };
+		E8DB9B851ADC2422AADFFFCA /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.h; path = src/main.h; sourceTree = SOURCE_ROOT; };
+		EA1A13C6F76220B0836D0C97 /* json_spirit_writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_writer.h; path = src/json/json_spirit_writer.h; sourceTree = SOURCE_ROOT; };
+		EA42B426DA349533DD088CD2 /* moc_overviewpage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_overviewpage.cpp; path = build/moc_overviewpage.cpp; sourceTree = SOURCE_ROOT; };
+		EA98E389382DB26106D834E8 /* ui_rpcconsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_rpcconsole.h; path = build/ui_rpcconsole.h; sourceTree = SOURCE_ROOT; };
+		EB12A6BA58FB968571642672 /* transactiondescdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = transactiondescdialog.ui; path = src/qt/forms/transactiondescdialog.ui; sourceTree = SOURCE_ROOT; };
+		EB1FC130AA1513909D88B426 /* walletframe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = walletframe.cpp; path = src/qt/walletframe.cpp; sourceTree = SOURCE_ROOT; };
+		EB32BE2987FB8B48B0D3346B /* transactiontablemodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactiontablemodel.h; path = src/qt/transactiontablemodel.h; sourceTree = SOURCE_ROOT; };
+		EBB04156759915318CD7138E /* moc_lusocoinaddressvalidator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_lusocoinaddressvalidator.cpp; path = build/moc_lusocoinaddressvalidator.cpp; sourceTree = SOURCE_ROOT; };
+		EC3CF926CA4AAFBFC4946E5E /* lusocoin_nb.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_nb.ts; path = src/qt/locale/lusocoin_nb.ts; sourceTree = SOURCE_ROOT; };
+		F0859C1B1D2E6A709CB82937 /* transactionfilterproxy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transactionfilterproxy.cpp; path = src/qt/transactionfilterproxy.cpp; sourceTree = SOURCE_ROOT; };
+		F0E90B2712E935EEA9C830DD /* boost_program_options-mt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "boost_program_options-mt"; path = "/opt/local/lib/libboost_program_options-mt.dylib"; sourceTree = "<absolute>"; };
+		F12B7C8096B548A1661C048A /* lusocoin_ar.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ar.ts; path = src/qt/locale/lusocoin_ar.ts; sourceTree = SOURCE_ROOT; };
+		F23F2520DA3F0C58538CA4B7 /* moc_notificator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_notificator.cpp; path = build/moc_notificator.cpp; sourceTree = SOURCE_ROOT; };
+		F28B30D7A84C4A3370F27E90 /* lusocoingui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lusocoingui.h; path = src/qt/lusocoingui.h; sourceTree = SOURCE_ROOT; };
+		F2B8EFAA1616DC5DD4BA8085 /* qrc_lusocoin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qrc_lusocoin.cpp; sourceTree = SOURCE_ROOT; };
+		F5222500D1E202CD77AB8959 /* init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = init.h; path = src/init.h; sourceTree = SOURCE_ROOT; };
+		F5EC1EF5C789CB90588B23B8 /* addresstablemodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = addresstablemodel.h; path = src/qt/addresstablemodel.h; sourceTree = SOURCE_ROOT; };
+		F6ACC8CA9A34F7DA61977541 /* sendcoinsentry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sendcoinsentry.cpp; path = src/qt/sendcoinsentry.cpp; sourceTree = SOURCE_ROOT; };
+		F7310B55A1D7326C57BA42A9 /* json_spirit_reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_spirit_reader.h; path = src/json/json_spirit_reader.h; sourceTree = SOURCE_ROOT; };
+		FC90030DC097A0F8790C677A /* transactionfilterproxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transactionfilterproxy.h; path = src/qt/transactionfilterproxy.h; sourceTree = SOURCE_ROOT; };
+		FE1E38D934712FA3E0009010 /* version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = version.cpp; path = src/version.cpp; sourceTree = SOURCE_ROOT; };
+		FE4D8015FBE1BCED9F3F44D1 /* lusocoin_ca_ES.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_ca_ES.ts; path = src/qt/locale/lusocoin_ca_ES.ts; sourceTree = SOURCE_ROOT; };
+		FE98A76AE4E6F9E82FF36618 /* checkpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = checkpoints.h; path = src/checkpoints.h; sourceTree = SOURCE_ROOT; };
+		FEB330EBFB3F29E8A0B91DE2 /* netbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = netbase.h; path = src/netbase.h; sourceTree = SOURCE_ROOT; };
+		FEBB319D0E68028230B34FF3 /* lusocoin_th_TH.ts */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lusocoin_th_TH.ts; path = src/qt/locale/lusocoin_th_TH.ts; sourceTree = SOURCE_ROOT; };
+		FF1D9AB20C19185DBBA33A95 /* sync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sync.cpp; path = src/sync.cpp; sourceTree = SOURCE_ROOT; };
+		FFEA3C7F97CA2E0D25EC2292 /* lusocoinunits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lusocoinunits.cpp; path = src/qt/lusocoinunits.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E20ADA60AF96DE426FCCAC8 /* libleveldb.a in Frameworks & Libraries */,
+				C64B60EDDAF55665E8485491 /* libmemenv.a in Frameworks & Libraries */,
+				5AAC0D9BBAE5CD615557CD7D /* Foundation.framework in Frameworks & Libraries */,
+				F9E76E570E10AF14870553A7 /* ApplicationServices.framework in Frameworks & Libraries */,
+				51D4DBF7CB8537BE86EBD055 /* AppKit.framework in Frameworks & Libraries */,
+				D23C8290277DAA95905B64B9 /* ssl in Frameworks & Libraries */,
+				04CA7B1291BA5426EC23B7DC /* crypto in Frameworks & Libraries */,
+				BE63C062ABCF124507695961 /* db_cxx-4.8 in Frameworks & Libraries */,
+				884B07938A5D3B6474FB2C3F /* boost_system-mt in Frameworks & Libraries */,
+				E539023A1E47A502B28D6897 /* boost_filesystem-mt in Frameworks & Libraries */,
+				2DEDF3EC04C6BEA1365A4A0B /* boost_program_options-mt in Frameworks & Libraries */,
+				52F1FAADF4FE86970C9D8F8B /* boost_thread-mt in Frameworks & Libraries */,
+				22DB586EF9BCDB5F3AF73F9E /* boost_chrono-mt in Frameworks & Libraries */,
+				501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */,
+				069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */,
+				3826A0833FCB54E86728C6EF /* QtNetwork.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* Lusocoin-Qt */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				100E0E8BE2BAE9070FB969FA /* Sources [lrelease] */,
+				3E4431212F852BE94A75A1A8 /* Sources [Compile] */,
+				52C235EBF1C9B07808119459 /* Sources [RCC] */,
+				EEC299C65D5017EB9DD513B0 /* Sources [UIC] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				47F01DF5185A134C006FC35F /* Products */,
+			);
+			name = "Lusocoin-Qt";
+			sourceTree = "<Group>";
+		};
+		06674E1DE8D3EB6E763DFFDA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A643EDF555F3C0131B17121 /* qt */,
+				DC2ABBF5ACF046A4C1C00742 /* alert.cpp */,
+				FE1E38D934712FA3E0009010 /* version.cpp */,
+				FF1D9AB20C19185DBBA33A95 /* sync.cpp */,
+				B7702A084EB00FB47F9800FD /* util.cpp */,
+				46EC93803811240FE7B2B9E8 /* hash.cpp */,
+				4942713BCD2752BB531BF76C /* netbase.cpp */,
+				54E45787CDB38FD8469FE6D1 /* key.cpp */,
+				DEDCC88D0E66B86A19981E7C /* script.cpp */,
+				7EC3C68A81EFFF79B6CA22AC /* main.cpp */,
+				C865A8939105E6350A50AF02 /* init.cpp */,
+				9A82240FE7DFE86564178691 /* net.cpp */,
+				5F61B74C88FF2B145D95C15F /* bloom.cpp */,
+				C33D3CE1A2A004536AAF1B90 /* checkpoints.cpp */,
+				546AFFDC61603F38C9252432 /* addrman.cpp */,
+				8094838580E1BB7A3BB8FC78 /* db.cpp */,
+				3B5A9B7D780FF672241548ED /* walletdb.cpp */,
+				D7618BDC04DB23AA74D6A5A4 /* wallet.cpp */,
+				17D98AECB876AABF97716311 /* keystore.cpp */,
+				AA8CA0E8B96995121A2C7511 /* lusocoinrpc.cpp */,
+				31DD861CD0A6A9747CBC540A /* rpcdump.cpp */,
+				C2FAC58575580AA9A46CBA47 /* rpcnet.cpp */,
+				C2C990FEE1C3381462640E80 /* rpcmining.cpp */,
+				E75EFF0CE0DDE388EDDBE317 /* rpcwallet.cpp */,
+				3627F02371334F49DCE3BD06 /* rpcblockchain.cpp */,
+				52257E4C1CEDBF5E302F1830 /* rpcrawtransaction.cpp */,
+				D58D02D777A1C816604D2FFA /* crypter.cpp */,
+				7B849737CD95B4AE05AB07B0 /* protocol.cpp */,
+				BB47488B1142B8D675E138B5 /* noui.cpp */,
+				8FD250F90607D44BCCCD1BA7 /* leveldb.cpp */,
+				81E4F16A1B5D5B7CA25351A6 /* txdb.cpp */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		0B4F0878BE99E6367A1AE5CD /* json */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA7E3D2FD7007B447147D5 /* json_spirit_writer_template.h */,
+				EA1A13C6F76220B0836D0C97 /* json_spirit_writer.h */,
+				24D471D15F4D10E0E9CDCBA9 /* json_spirit_value.h */,
+				3940A7EBD00EE84C0E01B0F2 /* json_spirit_utils.h */,
+				1763AF0B208B91F6849053FB /* json_spirit_stream_reader.h */,
+				57C6352E8E6EFFC7318BD274 /* json_spirit_reader_template.h */,
+				F7310B55A1D7326C57BA42A9 /* json_spirit_reader.h */,
+				0847B55145D80421DCA7F71A /* json_spirit_error_position.h */,
+				41EC5AF037ABE8FF8B9A476B /* json_spirit.h */,
+			);
+			name = json;
+			sourceTree = "<Group>";
+		};
+		100E0E8BE2BAE9070FB969FA /* Sources [lrelease] */ = {
+			isa = PBXGroup;
+			children = (
+				2401FA848CABF8BC6198C0AF /* src */,
+			);
+			name = "Sources [lrelease]";
+			sourceTree = "<Group>";
+		};
+		1A08F13E7F16A8B8A692B932 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */,
+				DAED567B109C79E19F17A86C /* moc_transactiontablemodel.cpp */,
+				A4B4A1EAA3CC10945B755590 /* moc_addresstablemodel.cpp */,
+				9E1F418151C4F9D5C609A73F /* moc_optionsdialog.cpp */,
+				166CC006FAB9FCBA326BEA03 /* moc_sendcoinsdialog.cpp */,
+				5F97480B63F2A55CEF1982C8 /* moc_addressbookpage.cpp */,
+				93CB504E1E918EC99C0A3368 /* moc_signverifymessagedialog.cpp */,
+				909254A40B12E3D7730D816C /* moc_aboutdialog.cpp */,
+				20FC03C2C3FFF959C91F8F31 /* moc_editaddressdialog.cpp */,
+				EBB04156759915318CD7138E /* moc_lusocoinaddressvalidator.cpp */,
+				8DB2BECB7FF8EA85628E7EC6 /* moc_clientmodel.cpp */,
+				E559C42FB1E911EB5DE3C2DB /* moc_guiutil.cpp */,
+				7403D2A96B0149BEA6A24968 /* moc_optionsmodel.cpp */,
+				48F516D32D667382B6DD347B /* moc_monitoreddatamapper.cpp */,
+				236884C55040C5CC1FF73971 /* moc_transactiondesc.cpp */,
+				DD27CFEF10DB7DC7F2B8B1AB /* moc_transactiondescdialog.cpp */,
+				C2B869AD33A4904B7E0C7C88 /* moc_lusocoinamountfield.cpp */,
+				AB4B44FA299DDEA4ED90B051 /* moc_transactionfilterproxy.cpp */,
+				2B9005EBC5367A1D093B810C /* moc_transactionview.cpp */,
+				2DA11A6B431AF85EECB4D5BD /* moc_walletmodel.cpp */,
+				0E40E7521ED12DDE2129DBF6 /* moc_walletview.cpp */,
+				3419702C484E2B89B6FFF5AB /* moc_walletstack.cpp */,
+				49D84C00D15ED4496BA1B725 /* moc_walletframe.cpp */,
+				EA42B426DA349533DD088CD2 /* moc_overviewpage.cpp */,
+				113E10E665ED8B584285DD0C /* moc_csvmodelwriter.cpp */,
+				8D1A94236062B7CD3737DE05 /* moc_sendcoinsentry.cpp */,
+				ABB72B7508F76A396BE621AE /* moc_qvalidatedlineedit.cpp */,
+				3A3E78F06E71043703CF9BD6 /* moc_lusocoinunits.cpp */,
+				4BA2CAB7AF73537528F3D9D4 /* moc_qvaluecombobox.cpp */,
+				61B4C1AF121658291D80CCC0 /* moc_askpassphrasedialog.cpp */,
+				F23F2520DA3F0C58538CA4B7 /* moc_notificator.cpp */,
+				6550BC5D72B2AEBC05173AC2 /* moc_paymentserver.cpp */,
+				088B9333378F683E66E7E5D0 /* moc_rpcconsole.cpp */,
+				6BD1BFE34AC4B769E7D86332 /* moc_splashscreen.cpp */,
+				86D4A6FE594D75CD04314D9C /* moc_macdockiconhandler.cpp */,
+				E798F6AE6C029EDA4B130D6B /* ui_sendcoinsdialog.h */,
+				ACD02680B40A5768D8C8CA08 /* ui_addressbookpage.h */,
+				4FA558A150244F38C8D299EA /* ui_signverifymessagedialog.h */,
+				006320ADB6D2F4BDFD2BEDA4 /* ui_aboutdialog.h */,
+				8DD264C2BE6A3EBFB3FC6C0B /* ui_editaddressdialog.h */,
+				8ABDFE389685DB005358D2A7 /* ui_transactiondescdialog.h */,
+				7090E4F4327E1D6F7AE5BB61 /* ui_overviewpage.h */,
+				DB4B50F01F65B96F01A0BB7C /* ui_sendcoinsentry.h */,
+				DB07EF9A95E79F7A04BE51D7 /* ui_askpassphrasedialog.h */,
+				EA98E389382DB26106D834E8 /* ui_rpcconsole.h */,
+				10C847982E8D35F5A4C5F7D8 /* ui_optionsdialog.h */,
+			);
+			name = build;
+			sourceTree = "<Group>";
+		};
+		2401FA848CABF8BC6198C0AF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E9E76BEA11464601808338E6 /* qt */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		3A9EF9F02DC6326EEA537D8E /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				255314458616C9A40211001B /* lusocoin.icns */,
+			);
+			name = icons;
+			sourceTree = "<Group>";
+		};
+		3E4431212F852BE94A75A1A8 /* Sources [Compile] */ = {
+			isa = PBXGroup;
+			children = (
+				F1DA6D2F3A7EBD24CF6E61C3 /* src */,
+			);
+			name = "Sources [Compile]";
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1A08F13E7F16A8B8A692B932 /* build */,
+				F2B8EFAA1616DC5DD4BA8085 /* qrc_lusocoin.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<Group>";
+		};
+		470C81D18ED100A24BE1225B /* forms */ = {
+			isa = PBXGroup;
+			children = (
+				35ADED65DF872D898CFD7425 /* sendcoinsdialog.ui */,
+				E015C6EB23AB051E1145C9B9 /* addressbookpage.ui */,
+				3DD3D8D3C56A17596A7C7B79 /* signverifymessagedialog.ui */,
+				8D34AE1F1D3EB4D6D6D31224 /* aboutdialog.ui */,
+				0AABA5F2112DA74A402F9B26 /* editaddressdialog.ui */,
+				EB12A6BA58FB968571642672 /* transactiondescdialog.ui */,
+				90ABF38065A3F7D1BF9E8BD6 /* overviewpage.ui */,
+				CA236E1C56B32D792A187FAB /* sendcoinsentry.ui */,
+				ABC7D3E60DCA7755E8BB147E /* askpassphrasedialog.ui */,
+				C553B2767151ED8B78D3ECE0 /* rpcconsole.ui */,
+				5DB2CA388FA51E09292334A1 /* optionsdialog.ui */,
+			);
+			name = forms;
+			sourceTree = "<Group>";
+		};
+		47F01DF5185A134C006FC35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F01DF4185A134C006FC35F /* Lusocoin-Qt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A643EDF555F3C0131B17121 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				1670EE074B7C0A79917E1B4C /* lusocoin.cpp */,
+				5219CC57B74A15932B329F4B /* lusocoingui.cpp */,
+				CB529AE4A98C3AE9DA8D7FE7 /* transactiontablemodel.cpp */,
+				C04BD6830C6C2F5DAC54B155 /* addresstablemodel.cpp */,
+				D3299ADD50F0FBF37C2EDF0F /* optionsdialog.cpp */,
+				76B18BD21CCF64E256F029A8 /* sendcoinsdialog.cpp */,
+				8D96E9ACECB83B90334D9234 /* addressbookpage.cpp */,
+				11A7693A223E2AD56D8C54FB /* signverifymessagedialog.cpp */,
+				A7C2F9A68DB105F001C5D444 /* aboutdialog.cpp */,
+				418D654B5FA4ABEE24D87427 /* editaddressdialog.cpp */,
+				66F9AA9D55485D12CFB8CC9F /* lusocoinaddressvalidator.cpp */,
+				2C51F64A3430117D2F6C7CB5 /* clientmodel.cpp */,
+				A459A939BE4FE065DD5F64AB /* guiutil.cpp */,
+				C15BDDF63DBF970FF6D88379 /* transactionrecord.cpp */,
+				BD81CC35FA9249EC9E6A2ACE /* optionsmodel.cpp */,
+				5E566BBFC352766B224FB0C7 /* monitoreddatamapper.cpp */,
+				87956AEAB4A1964671D3B24F /* transactiondesc.cpp */,
+				C4322C51552B3A21B2D06038 /* transactiondescdialog.cpp */,
+				0ACD2FC26E579D26D246BDED /* lusocoinstrings.cpp */,
+				E00C97349FBB8BC3813D9B5B /* lusocoinamountfield.cpp */,
+				F0859C1B1D2E6A709CB82937 /* transactionfilterproxy.cpp */,
+				A2313FE103F15A1A07E0C10C /* transactionview.cpp */,
+				2E3836AF182CFB375329C346 /* walletmodel.cpp */,
+				0945DE3E3345C5E5C9B39FEE /* walletview.cpp */,
+				934D9AA6E6E57B07B1DD1AB8 /* walletstack.cpp */,
+				EB1FC130AA1513909D88B426 /* walletframe.cpp */,
+				59A80B7DEF583E0548ABACA4 /* overviewpage.cpp */,
+				B0D9669919AE05EA8BEA9EB0 /* csvmodelwriter.cpp */,
+				F6ACC8CA9A34F7DA61977541 /* sendcoinsentry.cpp */,
+				3580A0A3BD2C3224465EB5AC /* qvalidatedlineedit.cpp */,
+				FFEA3C7F97CA2E0D25EC2292 /* lusocoinunits.cpp */,
+				50388E8625CEBCCE224ABDE5 /* qvaluecombobox.cpp */,
+				DEFEDE4762FD62A298BD8A09 /* askpassphrasedialog.cpp */,
+				E442FB9C2FB920F5B5BA588B /* notificator.cpp */,
+				7823229685EA2F6633C45D94 /* paymentserver.cpp */,
+				2C15C5B52F35EA388EBAB757 /* rpcconsole.cpp */,
+				E74648DFE36EC1841B222CA9 /* splashscreen.cpp */,
+				A3158E2199FFD15889056621 /* res */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		52C235EBF1C9B07808119459 /* Sources [RCC] */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ACC223F7F1D34AE289570 /* src */,
+			);
+			name = "Sources [RCC]";
+			sourceTree = "<Group>";
+		};
+		7106DE7673A255DBBFC20C35 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				8BA5314430C8DBBCC7D98332 /* lusocoin.qrc */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				907758BF5AA68491B3DCE80F /* lusocoin-qt.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<Group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6147B42623F6B3284738 /* src */,
+			);
+			name = Headers;
+			sourceTree = "<Group>";
+		};
+		8CA4ECD73597EF84DABFB9E4 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				F28B30D7A84C4A3370F27E90 /* lusocoingui.h */,
+				EB32BE2987FB8B48B0D3346B /* transactiontablemodel.h */,
+				F5EC1EF5C789CB90588B23B8 /* addresstablemodel.h */,
+				3B9937E7BE1D536CE91ADE7E /* optionsdialog.h */,
+				B7DD744B2F98334D6D195836 /* sendcoinsdialog.h */,
+				C46C0E2B9993CF20BEEF1EEE /* addressbookpage.h */,
+				802ED37FA57C1A88C99F2209 /* signverifymessagedialog.h */,
+				1BE121EBA5DD7596340B381B /* aboutdialog.h */,
+				CE5C635AB88FF954C6B89340 /* editaddressdialog.h */,
+				C9FCC2C9ACCC2D52253F8720 /* lusocoinaddressvalidator.h */,
+				3DA46F4A28E377E076591DC6 /* clientmodel.h */,
+				110097CA0A98E2BF2863E3A0 /* guiutil.h */,
+				3812B2A6C37C14B5613509D8 /* transactionrecord.h */,
+				3D56B5125EA799DA86C7BC85 /* guiconstants.h */,
+				7F977A654485787FDE7F4841 /* optionsmodel.h */,
+				E096C181E672E11E31965A10 /* monitoreddatamapper.h */,
+				137A6A804AE0114134A1E744 /* transactiondesc.h */,
+				37286052A0C723D805EDD7D6 /* transactiondescdialog.h */,
+				A2391C83D5AAC034CE886F44 /* lusocoinamountfield.h */,
+				FC90030DC097A0F8790C677A /* transactionfilterproxy.h */,
+				4CB89A87C5D3C060A282EA9C /* transactionview.h */,
+				D5EB44925C8AC37C5941FCBC /* walletmodel.h */,
+				0ECAE03A503209A4183075D0 /* walletview.h */,
+				D372F2991F4FE7BB57E8684A /* walletstack.h */,
+				260E6BAF5AE22B8DB884A788 /* walletframe.h */,
+				58B51675B81CE123DE80B398 /* overviewpage.h */,
+				3D95A48D13A00BFD496F36B8 /* csvmodelwriter.h */,
+				AE1680002A56FE1D7BC7584E /* sendcoinsentry.h */,
+				4979949E6507F55E91F6451D /* qvalidatedlineedit.h */,
+				E603E4F04A4D38095F16EBD3 /* lusocoinunits.h */,
+				C6153F4960180CC6F8120969 /* qvaluecombobox.h */,
+				33E7F6789888AEDF678EC8F4 /* askpassphrasedialog.h */,
+				B7BB206D5419F89085CE6E0E /* notificator.h */,
+				758DCD6635F33B160A9481C2 /* paymentserver.h */,
+				D4D9193F497641E49BA6A732 /* rpcconsole.h */,
+				B62CD0C7B4F2E0FF5941B71C /* splashscreen.h */,
+				77FB39ED460442634F62B71E /* macdockiconhandler.h */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		A1B6D1488110DA0868414A40 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B2563C59A14CFB35037BF474 /* qt */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		A3158E2199FFD15889056621 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EF9F02DC6326EEA537D8E /* icons */,
+			);
+			name = res;
+			sourceTree = "<Group>";
+		};
+		AD9ACC223F7F1D34AE289570 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7106DE7673A255DBBFC20C35 /* qt */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		B2563C59A14CFB35037BF474 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				470C81D18ED100A24BE1225B /* forms */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		C342B1D06158C993CA12C0FE /* locale */ = {
+			isa = PBXGroup;
+			children = (
+				62CD76B3CE25F73E29D28301 /* lusocoin_af_ZA.ts */,
+				F12B7C8096B548A1661C048A /* lusocoin_ar.ts */,
+				3573742090E4E5D9E2032B00 /* lusocoin_bg.ts */,
+				3FAFA942875BDADB071D4501 /* lusocoin_bs.ts */,
+				8F0E3635B1A1D52FD3826183 /* lusocoin_ca.ts */,
+				FE4D8015FBE1BCED9F3F44D1 /* lusocoin_ca_ES.ts */,
+				E236CBDED95A29F2B35DBD4F /* lusocoin_cs.ts */,
+				DD4E589774B94ED661E02D3E /* lusocoin_cy.ts */,
+				8A64C98378B1E66DD74BD9D3 /* lusocoin_da.ts */,
+				E041574CC3D04D5FB7EC4330 /* lusocoin_de.ts */,
+				81BE4397D3128227184B41C3 /* lusocoin_el_GR.ts */,
+				BD642044BA760FE5537BB142 /* lusocoin_en.ts */,
+				5D0A7E2D9D99B1DD60DF5013 /* lusocoin_eo.ts */,
+				AA8B277B97D43D5C2DEFDC1B /* lusocoin_es.ts */,
+				28C0DE7B5F79797FB1F237E6 /* lusocoin_es_CL.ts */,
+				17B1F91360C5E186A5731163 /* lusocoin_et.ts */,
+				CABB29A5D764168517547299 /* lusocoin_eu_ES.ts */,
+				85371E5F8D80E7B2DB5080DA /* lusocoin_fa.ts */,
+				04B112743CB012BFFC8D7C73 /* lusocoin_fa_IR.ts */,
+				BAE9CF82F58C517F6763BF4E /* lusocoin_fi.ts */,
+				9322DC566A38CA67F84A6AD3 /* lusocoin_fr.ts */,
+				234486F2C05BD92EBB86CE40 /* lusocoin_fr_CA.ts */,
+				C54FF510DD5922A8FEF3FC12 /* lusocoin_gu_IN.ts */,
+				B68E5D71DFBF64632ED9561F /* lusocoin_he.ts */,
+				87381E3E8827FB624E493DB6 /* lusocoin_hi_IN.ts */,
+				CB3AB4F05A093C1FDF7A4234 /* lusocoin_hr.ts */,
+				D9B68888E2A99F8AB830F98B /* lusocoin_hu.ts */,
+				BC43CC307C1D028D6F648853 /* lusocoin_it.ts */,
+				94E3EE1F7A607D449A5820C1 /* lusocoin_ja.ts */,
+				74A5FF41C570AAAFB1F16844 /* lusocoin_la.ts */,
+				51287F5319BE5A7DFB2B1441 /* lusocoin_lt.ts */,
+				308EAA29D85C09A352ECC243 /* lusocoin_lv_LV.ts */,
+				EC3CF926CA4AAFBFC4946E5E /* lusocoin_nb.ts */,
+				AB3987919942CF51FC73CAD8 /* lusocoin_nl.ts */,
+				B1666DA7E30CA4A869C2E817 /* lusocoin_pl.ts */,
+				DFDA97C01010625DAD1E6034 /* lusocoin_pt_BR.ts */,
+				BEDE70C31F1A98D3ADC2BD9E /* lusocoin_pt_PT.ts */,
+				5FFE5929B7CD01815FAAE986 /* lusocoin_ro_RO.ts */,
+				73CA38276286B049F37D96FE /* lusocoin_ru.ts */,
+				A45200749BD876EC0CE83571 /* lusocoin_sk.ts */,
+				D5CED353D415CA8E8F0A67B4 /* lusocoin_sr.ts */,
+				B5CC38FA446B1E629FFFC4C2 /* lusocoin_sv.ts */,
+				FEBB319D0E68028230B34FF3 /* lusocoin_th_TH.ts */,
+				6DD199756939C4D2E09E316E /* lusocoin_tr.ts */,
+				2224BF95A63394D9ADA7848F /* lusocoin_uk.ts */,
+				66A26D2B3CEB7E73DD44A47E /* lusocoin_zh_CN.ts */,
+				331346AA6CF77AECB4C78653 /* lusocoin_zh_TW.ts */,
+			);
+			name = locale;
+			sourceTree = "<Group>";
+		};
+		E9E76BEA11464601808338E6 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				C342B1D06158C993CA12C0FE /* locale */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2D30D057A077948456B3FE35 /* libleveldb.a */,
+				51C829C6F27BBF588617A122 /* libmemenv.a */,
+				BC52FAE3CF80A871217A111D /* Foundation.framework */,
+				27AE7A480FD6C52FCA80FECD /* ApplicationServices.framework */,
+				821416211D63F190AAAD016A /* AppKit.framework */,
+				AC71B920FEB7B87D09A2B30D /* ssl */,
+				8DB7EDBE1F3C84D115A00A59 /* crypto */,
+				6F71B8CB6E1CE43D101A312D /* db_cxx-4.8 */,
+				A14DBA87C082F448E809B93A /* boost_system-mt */,
+				A115E86ACABBC13593C0EF7B /* boost_filesystem-mt */,
+				F0E90B2712E935EEA9C830DD /* boost_program_options-mt */,
+				4D97731782BCD54DAFDEC436 /* boost_thread-mt */,
+				0E560C63387E32B64C5B1A41 /* boost_chrono-mt */,
+				9B36DA7E32F0304E780E7972 /* QtGui.framework */,
+				7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */,
+				B6B9970B86A6C219B0869FE9 /* QtNetwork.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<Group>";
+		};
+		EEC299C65D5017EB9DD513B0 /* Sources [UIC] */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6D1488110DA0868414A40 /* src */,
+			);
+			name = "Sources [UIC]";
+			sourceTree = "<Group>";
+		};
+		EF030AEE47E82ED39B4C5510 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				D9D898D294665DEC62FCD828 /* macdockiconhandler.mm */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		F1DA6D2F3A7EBD24CF6E61C3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EF030AEE47E82ED39B4C5510 /* qt */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		F4AF6147B42623F6B3284738 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8CA4ECD73597EF84DABFB9E4 /* qt */,
+				2378517C6D2C1D8C2EF09CA5 /* alert.h */,
+				0681CAA5B164F2DE0CF94403 /* addrman.h */,
+				68EDA2E1384EA8B4FEED2B15 /* base58.h */,
+				D9D7C0AC1845D4D4DF29B6A7 /* bignum.h */,
+				FE98A76AE4E6F9E82FF36618 /* checkpoints.h */,
+				87CF577F6DA7AA00ABE02E76 /* compat.h */,
+				998357BC40C89D644815A6FD /* sync.h */,
+				772F489C7D0A32DE3BADBFBC /* util.h */,
+				05B3817BE9A0D72B5AD9FA1C /* hash.h */,
+				23A5EB4BE66C42BAD04BF374 /* uint256.h */,
+				1FC2D3D7EDC00AB8EA29EB1C /* serialize.h */,
+				E8DB9B851ADC2422AADFFFCA /* main.h */,
+				1A8B9D1AD0A6FDA5E751286C /* net.h */,
+				DD01571C9DE4333A6AF0B54C /* key.h */,
+				A0FF2D5FD9051608678DFB91 /* db.h */,
+				8C859B51E45A48931ABF1317 /* walletdb.h */,
+				1518A709400B6B90AD184160 /* script.h */,
+				F5222500D1E202CD77AB8959 /* init.h */,
+				0242E17804BF76E91C40F839 /* bloom.h */,
+				6EB59B5D9001B2C5ECF3A1E3 /* mruset.h */,
+				88316C9AA9514C038C930429 /* checkqueue.h */,
+				0B4F0878BE99E6367A1AE5CD /* json */,
+				1151B74FF92271DC16305C46 /* wallet.h */,
+				48158819D794DA2D68F318A7 /* keystore.h */,
+				BEE2910C2FDC390D1CA59344 /* lusocoinrpc.h */,
+				756D3E8725A64F224DDBBD26 /* crypter.h */,
+				1DF47808B82268C616535E7B /* protocol.h */,
+				574B9F8673EA19404F178089 /* allocators.h */,
+				1F4F2068DAA4652693F95F64 /* ui_interface.h */,
+				C61070C281AED6DED69036C0 /* version.h */,
+				FEB330EBFB3F29E8A0B91DE2 /* netbase.h */,
+				08D3E61A9518C8B4A92C2459 /* clientversion.h */,
+				E3B0B9197F4A56F9E534FFAF /* txdb.h */,
+				C657AA91009FA99CD4158DAB /* leveldb.h */,
+				DF95FC819B237793CB462142 /* threadsafety.h */,
+				9BC1E6EEC2E23A2985D3C903 /* limitedmap.h */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				06674E1DE8D3EB6E763DFFDA /* src */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D83EFF07EEB8855F8DF31D0 /* Lusocoin-Qt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Lusocoin-Qt" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lusocoin-Qt";
+			productName = "Lusocoin-Qt";
+			productReference = 47F01DF4185A134C006FC35F /* Lusocoin-Qt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Lusocoin-Qt" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* Lusocoin-Qt */;
+			productRefGroup = 47F01DF5185A134C006FC35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D83EFF07EEB8855F8DF31D0 /* Lusocoin-Qt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8835592147FEE4F59BAF337A /* lusocoin.icns in Bundle Resources */,
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/armando/src/lusocoin-1.0-linux/src -f 'Lusocoin-Qt.xcodeproj/qt_preprocess.mak'";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/armando/src/lusocoin-1.0-linux/src -f 'Lusocoin-Qt.xcodeproj/qt_makeqmake.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDC8CA1D9E9E7001CA28B49 /* lusocoin.cpp in Build Sources */,
+				27BC32AD513D938F8FFA5C6C /* lusocoingui.cpp in Build Sources */,
+				AC986115EA525439CE02B772 /* transactiontablemodel.cpp in Build Sources */,
+				3EAF55895330BB92384E7FB9 /* addresstablemodel.cpp in Build Sources */,
+				49057C93AE051F2AA7B69B62 /* optionsdialog.cpp in Build Sources */,
+				3B8CD48C3BC5D9D227F91FB8 /* sendcoinsdialog.cpp in Build Sources */,
+				E83DD24EA2F483B9D412BC31 /* addressbookpage.cpp in Build Sources */,
+				DB3503470EBE7996804286BD /* signverifymessagedialog.cpp in Build Sources */,
+				D78EB18C669E97AF88AA7B9C /* aboutdialog.cpp in Build Sources */,
+				929E0D44111C6A32E8CE92CD /* editaddressdialog.cpp in Build Sources */,
+				D71D102945091FA79E6E7E1D /* lusocoinaddressvalidator.cpp in Build Sources */,
+				FD3ABB56C53C72301B4C1FAB /* alert.cpp in Build Sources */,
+				8313C92A51EF7D7E3C4796E4 /* version.cpp in Build Sources */,
+				E91D8E3BDE58E9DB94C9E825 /* sync.cpp in Build Sources */,
+				BD0157E44F1ECF39796C9FA5 /* util.cpp in Build Sources */,
+				1F0EF26A80D0642AA8938686 /* hash.cpp in Build Sources */,
+				6FB8F6F01CEA697B2CEF37CE /* netbase.cpp in Build Sources */,
+				D2B98FE0DA078540B90812E8 /* key.cpp in Build Sources */,
+				E81F053B78346DA9687D0A08 /* script.cpp in Build Sources */,
+				FD1638E377D97C82BDB438FB /* main.cpp in Build Sources */,
+				3C2FBE7D6FECEBA0DFD4AB34 /* init.cpp in Build Sources */,
+				DEBE71B434894A101C2809CF /* net.cpp in Build Sources */,
+				F5F6847B711B3991408A2FFA /* bloom.cpp in Build Sources */,
+				795E745119844850900AAE31 /* checkpoints.cpp in Build Sources */,
+				FCA898D84C581AC333FB6D35 /* addrman.cpp in Build Sources */,
+				731C6DFDCB68440750ABEAFF /* db.cpp in Build Sources */,
+				6D2B30A0668C35BB0498A043 /* walletdb.cpp in Build Sources */,
+				2857B3AE7E2B7A9DC24C41EF /* clientmodel.cpp in Build Sources */,
+				3705F9414918BEA7A45EC9FF /* guiutil.cpp in Build Sources */,
+				EF9ECE28F1F44FEF57F46271 /* transactionrecord.cpp in Build Sources */,
+				C6FCD7F7C30B1F8F8B513E62 /* optionsmodel.cpp in Build Sources */,
+				66986C1C134454228A533BEA /* monitoreddatamapper.cpp in Build Sources */,
+				9CEFAA2B37923EEBD36BA032 /* transactiondesc.cpp in Build Sources */,
+				8F2FA8BEB3FC23AF8397C8FB /* transactiondescdialog.cpp in Build Sources */,
+				30C83AF2C74364E4B22B306B /* lusocoinstrings.cpp in Build Sources */,
+				7486A263A9B6C15E309DA42C /* lusocoinamountfield.cpp in Build Sources */,
+				CF535B872FDCB36E002FDCDB /* wallet.cpp in Build Sources */,
+				7250B8EA381EF371A7BA7341 /* keystore.cpp in Build Sources */,
+				17709AA148DBDD156605A9D3 /* transactionfilterproxy.cpp in Build Sources */,
+				185A69AED12F2A947901CFF7 /* transactionview.cpp in Build Sources */,
+				CF61E658DA22785EB0D657F7 /* walletmodel.cpp in Build Sources */,
+				B945720D33C996234A634D71 /* walletview.cpp in Build Sources */,
+				451B70CDA0F45F6B6D1BA535 /* walletstack.cpp in Build Sources */,
+				9D3F346886A589F4EFCE2980 /* walletframe.cpp in Build Sources */,
+				CEFA034F484B9E1A457D77A8 /* lusocoinrpc.cpp in Build Sources */,
+				0B27AF031E23A1D93ABE3C8C /* rpcdump.cpp in Build Sources */,
+				131CB0C645EEA7B9B57C85AD /* rpcnet.cpp in Build Sources */,
+				0615A2624BE8F9B84A962F7A /* rpcmining.cpp in Build Sources */,
+				BC4F6D46FF1CC28D9B4375B2 /* rpcwallet.cpp in Build Sources */,
+				65EF8D7075C4F1076D7D2C99 /* rpcblockchain.cpp in Build Sources */,
+				9D53F2B2837EE924B5D23233 /* rpcrawtransaction.cpp in Build Sources */,
+				1F3B7FFD2ECB32E1D21762DB /* overviewpage.cpp in Build Sources */,
+				2E2BE64F249B462CEB8D8300 /* csvmodelwriter.cpp in Build Sources */,
+				7BAC12D50674304BD5638FDC /* crypter.cpp in Build Sources */,
+				0477575DC34A4A9646C4104A /* sendcoinsentry.cpp in Build Sources */,
+				CEC89802D9AD10E1B4C77A1A /* qvalidatedlineedit.cpp in Build Sources */,
+				F0B917312C65E6DDD52C81C4 /* lusocoinunits.cpp in Build Sources */,
+				44D23EB3FE35749A5300E586 /* qvaluecombobox.cpp in Build Sources */,
+				088983152F510BFF002699E9 /* askpassphrasedialog.cpp in Build Sources */,
+				8532536CFC85566BCD8EEEC5 /* protocol.cpp in Build Sources */,
+				D0C5F2BB291F2A1C337FD3D6 /* notificator.cpp in Build Sources */,
+				F940A6D34D2E9E46A832019A /* paymentserver.cpp in Build Sources */,
+				40FA068CE8AB09C9880E56EF /* rpcconsole.cpp in Build Sources */,
+				8AE18DDE6BDE22DB677CB329 /* noui.cpp in Build Sources */,
+				A84DB6BC0D3324A9DAB1464F /* leveldb.cpp in Build Sources */,
+				5830B6BE77D090B659D380A5 /* txdb.cpp in Build Sources */,
+				1F1E41C5F9C0480F4517CB1A /* splashscreen.cpp in Build Sources */,
+				8D90B14ADB5B985073F76F09 /* moc_lusocoingui.cpp in Build Sources */,
+				11D13C8965073DD93F492CB3 /* moc_transactiontablemodel.cpp in Build Sources */,
+				5EAED355339B6111B40A5F1F /* moc_addresstablemodel.cpp in Build Sources */,
+				4020D29C8FCB01F984669E7E /* moc_optionsdialog.cpp in Build Sources */,
+				2E4790A177122843B97E8091 /* moc_sendcoinsdialog.cpp in Build Sources */,
+				2A25A62767888DFF81FAA183 /* moc_addressbookpage.cpp in Build Sources */,
+				1139EA7430A43AC71420B948 /* moc_signverifymessagedialog.cpp in Build Sources */,
+				32B18F5EF3DF0B0988D45D27 /* moc_aboutdialog.cpp in Build Sources */,
+				CC22ACFE54D29D8EF13C86E2 /* moc_editaddressdialog.cpp in Build Sources */,
+				EEF13934C34529619DEAADEA /* moc_lusocoinaddressvalidator.cpp in Build Sources */,
+				B8FC782B03707304D7E580AA /* moc_clientmodel.cpp in Build Sources */,
+				36B7FA77A02770F401B657DB /* moc_guiutil.cpp in Build Sources */,
+				8C8FBA9435379C77B5093814 /* moc_optionsmodel.cpp in Build Sources */,
+				D8DEA8CB0F743211571C7ADA /* moc_monitoreddatamapper.cpp in Build Sources */,
+				B0D5A408710C2E5A8C599637 /* moc_transactiondesc.cpp in Build Sources */,
+				D512DAD225BA20244EFAEA33 /* moc_transactiondescdialog.cpp in Build Sources */,
+				07DF3D93A2725F351C946FA0 /* moc_lusocoinamountfield.cpp in Build Sources */,
+				AD58E517B290C085D7FC43E2 /* moc_transactionfilterproxy.cpp in Build Sources */,
+				3621616ED9B8ECC1C15B213C /* moc_transactionview.cpp in Build Sources */,
+				DAE40359380C5BA404066C41 /* moc_walletmodel.cpp in Build Sources */,
+				2F561C11680F5061E661DD77 /* moc_walletview.cpp in Build Sources */,
+				C6A258BD9C43FC5E39198B83 /* moc_walletstack.cpp in Build Sources */,
+				9E9B1EF4DC48590740C40CAF /* moc_walletframe.cpp in Build Sources */,
+				4B42840381D6574AD60904CE /* moc_overviewpage.cpp in Build Sources */,
+				4C591437B5ACB28BC201C50A /* moc_csvmodelwriter.cpp in Build Sources */,
+				2BD4DB20BB0FF8E056E887D2 /* moc_sendcoinsentry.cpp in Build Sources */,
+				3428984AC2BC7EFF81CD7E8D /* moc_qvalidatedlineedit.cpp in Build Sources */,
+				3EC78ACC9A0DDA2B59AC1799 /* moc_lusocoinunits.cpp in Build Sources */,
+				A4F699CDE4FE539AF1BCB1B4 /* moc_qvaluecombobox.cpp in Build Sources */,
+				32A72A447FA9678E3855A512 /* moc_askpassphrasedialog.cpp in Build Sources */,
+				9532B29A76ADFEC900AE9670 /* moc_notificator.cpp in Build Sources */,
+				285C89814AE6CBA1FF1D68DC /* moc_paymentserver.cpp in Build Sources */,
+				E203A1EA1AFAB502F999D876 /* moc_rpcconsole.cpp in Build Sources */,
+				986CCD0C7E64E6956B2AAAAA /* moc_splashscreen.cpp in Build Sources */,
+				2335D1C7387910B546B8FED8 /* moc_macdockiconhandler.cpp in Build Sources */,
+				8B24CF48A13E167034E7ACD0 /* qrc_lusocoin.cpp in Build Sources */,
+				2FD44F75EFF0B966B2F1E595 /* macdockiconhandler.mm in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					src,
+					src/json,
+					src/qt,
+					src/leveldb/include,
+					src/leveldb/helpers,
+					/opt/local/include,
+					/opt/local/include/db48,
+					build,
+					build,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.8/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"/Users/armando/src/lusocoin-1.0-linux/src/src/leveldb",
+					/System/Library/Frameworks/,
+					/opt/local/lib,
+					/opt/local/lib/db48,
+				);
+				OBJROOT = build/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-pthread",
+					"-Wall",
+					"-W",
+					"-DQT_GUI",
+					"-DBOOST_THREAD_USE_LIB",
+					"-DBOOST_SPIRIT_THREADSAFE",
+					"-DUSE_UPNP=1",
+					"-DSTATICLIB",
+					"-DUSE_IPV6=1",
+					"-DHAVE_BUILD_INFO",
+					"-DMAC_OSX",
+					"-DMSG_NOSIGNAL=0",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fstack-protector-all",
+					"-D_FORTIFY_SOURCE=2",
+					"-g",
+					"-pthread",
+					"-fdiagnostics-show-option",
+					"-Wall",
+					"-Wextra",
+					"-Wformat",
+					"-Wformat-security",
+					"-Wno-unused-parameter",
+					"-Wstack-protector",
+					"-DQT_GUI",
+					"-DBOOST_THREAD_USE_LIB",
+					"-DBOOST_SPIRIT_THREADSAFE",
+					"-DUSE_UPNP=1",
+					"-DSTATICLIB",
+					"-DUSE_IPV6=1",
+					"-DHAVE_BUILD_INFO",
+					"-DMAC_OSX",
+					"-DMSG_NOSIGNAL=0",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-fstack-protector-all",
+					"-pthread",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+					"-lminiupnpc",
+					"-L/opt/local/lib",
+					"-L/opt/local/lib/db48",
+				);
+				PRODUCT_NAME = "Lusocoin-Qt";
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Lusocoin-Qt";
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Lusocoin-Qt";
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtNetwork.framework/Versions/4/Headers,
+					/usr/include/QtNetwork,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					src,
+					src/json,
+					src/qt,
+					src/leveldb/include,
+					src/leveldb/helpers,
+					/opt/local/include,
+					/opt/local/include/db48,
+					build,
+					build,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.8/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"/Users/armando/src/lusocoin-1.0-linux/src/src/leveldb",
+					/System/Library/Frameworks/,
+					/opt/local/lib,
+					/opt/local/lib/db48,
+				);
+				OBJROOT = build/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-pthread",
+					"-Wall",
+					"-W",
+					"-DQT_GUI",
+					"-DBOOST_THREAD_USE_LIB",
+					"-DBOOST_SPIRIT_THREADSAFE",
+					"-DUSE_UPNP=1",
+					"-DSTATICLIB",
+					"-DUSE_IPV6=1",
+					"-DHAVE_BUILD_INFO",
+					"-DMAC_OSX",
+					"-DMSG_NOSIGNAL=0",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fstack-protector-all",
+					"-D_FORTIFY_SOURCE=2",
+					"-g",
+					"-pthread",
+					"-fdiagnostics-show-option",
+					"-Wall",
+					"-Wextra",
+					"-Wformat",
+					"-Wformat-security",
+					"-Wno-unused-parameter",
+					"-Wstack-protector",
+					"-DQT_GUI",
+					"-DBOOST_THREAD_USE_LIB",
+					"-DBOOST_SPIRIT_THREADSAFE",
+					"-DUSE_UPNP=1",
+					"-DSTATICLIB",
+					"-DUSE_IPV6=1",
+					"-DHAVE_BUILD_INFO",
+					"-DMAC_OSX",
+					"-DMSG_NOSIGNAL=0",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-fstack-protector-all",
+					"-pthread",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+					"-lminiupnpc",
+					"-L/opt/local/lib",
+					"-L/opt/local/lib/db48",
+				);
+				PRODUCT_NAME = "Lusocoin-Qt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "Lusocoin-Qt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Lusocoin-Qt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

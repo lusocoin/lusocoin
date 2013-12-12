@@ -1,0 +1,6 @@
+lusocoin-qt usr/bin
+share/pixmaps/lusocoin32.xpm usr/share/pixmaps
+share/pixmaps/lusocoin16.xpm usr/share/pixmaps
+share/pixmaps/lusocoin128.png usr/share/pixmaps
+debian/lusocoin-qt.desktop usr/share/applications
+debian/lusocoin-qt.protocol usr/share/kde4/services/

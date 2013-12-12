@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	1D83EFF07EEB8855F8DF31D0 /* Lusocoin-Qt */ = {
+		activeExec = 0;
+		executables = (
+			47F01DF6185A134C006FC35F /* Lusocoin-Qt */,
+		);
+	};
+	47F01DF6185A134C006FC35F /* Lusocoin-Qt */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Lusocoin-Qt";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	47F01E09185A1372006FC35F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	47F01E0A185A1372006FC35F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	47F01E11185A26A5006FC35F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'class LusocoinGUI' has no member named 'trayIconActivated'";
+		fRef = 4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */;
+		rLen = 1;
+		rLoc = 112;
+		rType = 1;
+	};
+	47F01E12185A26A5006FC35F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */;
+		name = "moc_lusocoingui.cpp: 113";
+		rLen = 0;
+		rLoc = 5136;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 4764;
+	};
+	4FF270ABA7E599B4291F6682 /* moc_lusocoingui.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1839, 1859}}";
+			sepNavSelRange = "{5520, 0}";
+			sepNavVisRange = "{4169, 1344}";
+		};
+	};
+	91B15E841AA80083484172DE /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 47F01DF6185A134C006FC35F /* Lusocoin-Qt */;
+		activeTarget = 1D83EFF07EEB8855F8DF31D0 /* Lusocoin-Qt */;
+		codeSenseManager = 47F01E0A185A1372006FC35F /* Code sense */;
+		executables = (
+			47F01DF6185A134C006FC35F /* Lusocoin-Qt */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 408561367;
+			PBXWorkspaceStateSaveDate = 408561367;
+		};
+		perUserProjectItems = {
+			47F01E11185A26A5006FC35F = 47F01E11185A26A5006FC35F /* PBXTextBookmark */;
+			47F01E12185A26A5006FC35F = 47F01E12185A26A5006FC35F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 47F01E09185A1372006FC35F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

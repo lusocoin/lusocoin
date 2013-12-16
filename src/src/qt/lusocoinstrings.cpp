@@ -49,7 +49,7 @@ QT_TRANSLATE_NOOP("lusocoin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("lusocoin-core", ""
-"Listen for JSON-RPC connections on <port> (default: 8332 or testnet: 18332)"),
+"Listen for JSON-RPC connections on <port> (default: 8442 or testnet: 18442)"),
 QT_TRANSLATE_NOOP("lusocoin-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: "
 "86400)"),
@@ -142,7 +142,7 @@ QT_TRANSLATE_NOOP("lusocoin-core", "Invalid amount for -mintxfee=<amount>: '%s'"
 QT_TRANSLATE_NOOP("lusocoin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
 QT_TRANSLATE_NOOP("lusocoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("lusocoin-core", "List commands"),
-QT_TRANSLATE_NOOP("lusocoin-core", "Listen for connections on <port> (default: 8333 or testnet: 18333)"),
+QT_TRANSLATE_NOOP("lusocoin-core", "Listen for connections on <port> (default: 8443 or testnet: 18444)"),
 QT_TRANSLATE_NOOP("lusocoin-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("lusocoin-core", "Loading block index..."),
 QT_TRANSLATE_NOOP("lusocoin-core", "Loading wallet..."),

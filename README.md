@@ -1,4 +1,4 @@
-Lusocoin 1.0
+Lusocoin 1.1
 ============
 
 Copyright (c) 2009-2013 The Bitcoin developers

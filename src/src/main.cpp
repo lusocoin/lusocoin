@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Lusocoin developers
+// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2013-2014 The Lusocoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1111,9 +1112,10 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     // Only change once per interval
     if ((pindexLast->nHeight+1) % nInterval != 0)
     {
-        // Special difficulty rule for testnet:
-        if (fTestNet)
-        {
+        
+	// Due to pool-hopping by the influx of ASIC miners, with resulting pain of difficulty readjustment we are forced to
+	// retarget if the new block's timestamp is more than 2* 10 minutes
+
             // If the new block's timestamp is more than 2* 10 minutes
             // then allow mining of a min-difficulty block.
             if (pblock->nTime > pindexLast->nTime + nTargetSpacing*2)
@@ -1126,7 +1128,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
                     pindex = pindex->pprev;
                 return pindex->nBits;
             }
-        }
+
 
         return pindexLast->nBits;
     }
